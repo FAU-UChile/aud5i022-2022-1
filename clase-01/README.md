@@ -1,8 +1,8 @@
 # clase-01
 
-## Presentaciones de instructores (30 min)
+## Presentación de profesor (30 min)
 
-Instructores presentan su investigación actual y su portafolio.
+Investigación actual y portafolio.
 
 ## Presentaciones de estudiantes (45 min)
 
@@ -33,6 +33,15 @@ Crear repositorios
 Subir archivos
 Proponer 
 Pull requests
+
+## Introducción a microcontroladores
+
+Diferencias entre computadores y microcontroladores.
+
+Actividad: 
+
+Listar para qué los computadores son buenos y malos.
+Lo mismo con personas.
 
 ## Herramientas para programar Arduino
 
