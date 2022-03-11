@@ -9,6 +9,16 @@ Sublime
 Visual Studio Code
 Emacs
 
+## Convenciones en Arduino
+
+### setup()
+
+setup() ocurre una vez, al principio de los tiempos.
+
+### loop()
+
+loop() ocurre después de setup(), en bucle, hasta el fin.
+
 ## Qué es código
 
 Explicar diferencia entre Microsoft Word y editores de texto.
