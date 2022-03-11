@@ -2,7 +2,16 @@
 
 ## Presentación de profesor (30 min)
 
-Investigación actual y portafolio.
+Investigación actual, portafolio, referencias.
+
+p5.js
+Processing
+openFrameworks
+Scratch
+ChucK
+Tidalcycles
+Kicad
+Ciat-Lonbarde
 
 ## Presentaciones de estudiantes (45 min)
 
