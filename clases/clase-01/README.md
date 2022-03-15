@@ -1,6 +1,6 @@
 # clase-01
 
-## Programa y organización (15 min)
+## Programa y organización (30 min)
 
 Los materiales de este curso se encuentran en u-cursos.cl y en la web [https://github.com/montoyamoraga/aud5i022-2022-1](https://github.com/montoyamoraga/aud5i022-2022-1).
 
@@ -42,30 +42,34 @@ Investigación:
 * Ética en tecnologías digitales
 * Redes peer-to-peer y decentralizadas para artes
 
-Referentes:
+Herramientas y comunidades:
+
 * [p5.js](https://p5js.org/)
 * [Processing](https://processing.org/)
 * [openFrameworks](https://openframeworks.cc/)
 * [Tidal Cycles](https://tidalcycles.org/)
 * [ChucK](https://chuck.cs.princeton.edu/)
 * [KiCad](https://www.kicad.org/)
-* [monome](https://monome.org/)
-* [Critter & Guitari](https://www.critterandguitari.com/)
-* [Bleep Labs](https://bleeplabs.com/)
-* [Ciat-Lonbarde](https://www.ciat-lonbarde.net/)
 
-## Contexto artes mediales
+## Referencias del curso (15 min)
 
 * [Visible Languages Workshop](https://act.mit.edu/special-collections/vlw-archive/)
 * [Aesthetics + Computation Group](https://acg.media.mit.edu/)
 * [Physical Language Workshop](https://plw.media.mit.edu/)
+* [Interaction Design Institute Ivrea](https://interactionivrea.org/en/index.asp)
+* [monome](https://monome.org/)
+* [Critter & Guitari](https://www.critterandguitari.com/)
+* [Bleep Labs](https://bleeplabs.com/)
+* [Ciat-Lonbarde](https://www.ciat-lonbarde.net/)
+* [NYU ITP Physical Computing](https://itp.nyu.edu/physcomp/itp/)
 
-## Historia de Arduino (30 min)
+## Historia de Arduino (15 min)
 
-[Arduino](https://www.arduino.cc/)
-[Processing](https://processing.org/)
-[Wiring](https://wiring.org.co/)
-[The Untold History of Arduino](https://arduinohistory.github.io/)
+* [Arduino](https://www.arduino.cc/)
+* [Processing](https://processing.org/)
+* [Wiring](https://wiring.org.co/)
+* [The Untold History of Arduino](https://arduinohistory.github.io/)
+* [Arduino The Documentary (2010)](https://vimeo.com/18390711)
 
 ## Control de versiones en GitHub.com (60 min)
 
@@ -73,21 +77,3 @@ Crear repositorios
 Subir archivos
 Proponer 
 Pull requests
-
-## Introducción a microcontroladores
-
-Diferencias entre computadores y microcontroladores.
-
-Actividad: 
-
-Listar para qué los computadores son buenos y malos.
-Lo mismo con personas.
-
-## Herramientas para programar Arduino
-
-Arduino IDE
-
-C++
-
-## Código y comentarios
-

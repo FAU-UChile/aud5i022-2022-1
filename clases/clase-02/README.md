@@ -1,5 +1,22 @@
 # clase-02
 
+## Introducción a microcontroladores
+
+Diferencias entre computadores y microcontroladores.
+
+Actividad: 
+
+Listar para qué los computadores son buenos y malos.
+Lo mismo con personas.
+
+## Herramientas para programar Arduino
+
+Arduino IDE
+
+C++
+
+## Código y comentarios
+
 ## Instalación de Arduino IDE
 
 ## Instalación de editor de código

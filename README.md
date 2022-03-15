@@ -47,8 +47,8 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 
 Durante este curso usaremos los siguientes hardware:
 
-* Computador con sistemas operativos Linux, Mac, o Windows.
-* Microcontrolador Arduino Uno, Nano, o similar.
+* Computador con sistemas operativos Linux, Mac, o Windows
+* Microcontrolador Arduino Uno, Nano, o similar
 * Breadboard / protoboard
 * Cables Dupont
 * Potenciómetros
@@ -61,4 +61,11 @@ Durante este curso usaremos los siguientes software:
 * Navegador web, se recomienda Firefox o Google Chrome
 * Arduino IDE 1.8.19, disponible en [https://www.arduino.cc/](https://www.arduino.cc/)
 * Processing 4.0, disponible en [https://processing.org/](https://processing.org/)
-* Editor de texto, se recomienda Visual Studio Code y Atom.
+* Editor de texto, se recomienda Visual Studio Code y Atom
+
+## Motivaciones
+
+* Introducir rudimentos de electrónica
+* Introducir rudimentos de programación de microcontroladores
+* Introducir rudimentos de diseño de interfaces electrónicas para audio y video
+* Introducir un marco teórico y ético en torno al uso de microcontroladores
