@@ -17,6 +17,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 ## Clases
 
 | Clase | Fecha | Tema |
+|:-|:-|:-|
 | [clase-01](clases/clase-01/) | 2022-03-15 | Introducción |
 | [clase-02](clases/clase-02/) | 2022-03-22 | Introducción |
 | [clase-03](clases/clase-03/) | 2022-03-29 | Introducción |
