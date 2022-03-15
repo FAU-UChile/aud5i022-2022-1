@@ -16,7 +16,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 
 ## Clases
 
-* [clase-01](clases/clase-01/): 2022-03-15
+* [clase-01](clases/clase-01/): 2022-03-15 Introducción
 * [clase-02](clases/clase-02/): 2022-03-22
 * [clase-03](clases/clase-03/): 2022-03-29
 * [clase-04](clases/clase-04/): 2022-04-05
@@ -33,7 +33,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 * [clase-15](clases/clase-15/): 2022-06-28
 * [clase-16](clases/clase-16/): 2022-07-05
 * [clase-17](clases/clase-17/): 2022-07-12
-* [clase-18](clases/clase-18/): 2022-07-19
+* [clase-18](clases/clase-18/): 2022-07-19 Conclusiones
 
 ## Herramientas
 
