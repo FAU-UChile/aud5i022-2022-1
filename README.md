@@ -14,6 +14,12 @@ Estudiantes: 29
 
 Universidad de Chile, Facultad de Arquitectura y Urbanismo
 
+## Estructura del repositorio
+
+* [borradores/](borradores/): documentos en progreso, apuntes por ordenar.
+* [clases/](clases/): documentos correspondientes a cada clase.
+* [utilidades/](utilidades/): documentos de apoyo.
+
 ## Clases
 
 | Clase | Fecha | Tema |
