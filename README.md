@@ -10,6 +10,10 @@ Cátedra: martes 3pm - 6:15pm, primer semestre año 2022 (marzo - julio)
 
 Profesor: [Aarón Montoya-Moraga](https://github.com/montoyamoraga/)
 
+Estudiantes: 29
+
+Universidad de Chile, Facultad de Arquitectura y Urbanismo
+
 ## Clases
 
 * [clase-01](clases/clase-01/): 2022-03-15
