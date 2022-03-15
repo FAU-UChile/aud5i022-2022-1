@@ -12,7 +12,7 @@ Profesor: [github.com/montoyamoraga](Aarón Montoya-Moraga)
 
 ## Clases
 
-* [clases/clase-01](clase-01/): 2022-03-15
+* [clase-01](clases/clase-01): 2022-03-15
 * [clase-02/](clase-02/): 2022-03-22
 * [clase-03/](clase-03/): 2022-03-29
 * [clase-04/](clase-04/): 2022-04-05
