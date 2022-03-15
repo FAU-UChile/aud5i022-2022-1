@@ -18,12 +18,12 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 
 | Clase | Fecha | Tema |
 |  :-------------------- | :--------- | :-------------------------------- |
-| [01](clases/clase-01/) | 2022-03-15 | Introducción                      |
+| [01](clases/clase-01/) | 2022-03-15 | Interfaces electrónicas           |
 | [02](clases/clase-02/) | 2022-03-22 | Fundamentos de electrónica        |
 | [03](clases/clase-03/) | 2022-03-29 | Fundamentos de microcontroladores |
-| [04](clases/clase-04/) | 2022-04-05 | Introducción |
-| [05](clases/clase-05/) | 2022-04-12 | Introducción |
-| [06](clases/clase-06/) | 2022-04-19 | Introducción |
+| [04](clases/clase-04/) | 2022-04-05 | Variables y tipos de datos        |
+| [05](clases/clase-05/) | 2022-04-12 | Sensores                          |
+| [06](clases/clase-06/) | 2022-04-19 | Comunicación serial               |
 | [07](clases/clase-07/) | 2022-04-26 | Introducción |
 | [08](clases/clase-08/) | 2022-05-03 | Introducción |
 | [09](clases/clase-09/) | 2022-05-10 | Introducción |
