@@ -8,7 +8,7 @@ Créditos: 3
 
 Cátedra: martes 3pm - 6:15pm, primer semestre año 2022 (marzo - julio)
 
-Profesor: [github.com/montoyamoraga](Aarón Montoya-Moraga)
+Profesor: [Aarón Montoya-Moraga](https://github.com/montoyamoraga/)
 
 ## Clases
 
@@ -37,7 +37,7 @@ Durante este curso usaremos los siguientes hardware:
 
 * Computador con sistemas operativos Linux, Mac, o Windows.
 * Microcontrolador Arduino Uno, Nano, o similar.
-* Breadboard
+* Breadboard / protoboard
 * Cables Dupont
 * Potenciómetros
 * Resistencias
