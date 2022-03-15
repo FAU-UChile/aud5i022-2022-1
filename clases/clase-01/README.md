@@ -1,8 +1,14 @@
 # clase-01
 
-## Programa y organización (30 min)
+Interfaces electrónicas
 
-Los materiales de este curso se encuentran en u-cursos.cl y en la web [https://github.com/montoyamoraga/aud5i022-2022-1](https://github.com/montoyamoraga/aud5i022-2022-1).
+## Programa y organización (15 min)
+
+Los materiales de este curso se encuentran las siguientes web:
+
+* u-cursos.cl: para publicación de notas y tareas
+* repositorio [https://github.com/montoyamoraga/aud5i022-2022-1](https://github.com/montoyamoraga/aud5i022-2022-1)
+* organización [https://github.com/aud5i022-2022-1](https://github.com/aud5i022-2022-1)
 
 ## Códigos de conducta (15 min)
 
@@ -17,8 +23,8 @@ Cada estudiante se presenta durante 90 segundos, respondiendo un subconjunto de 
 * Nombre
 * Pronombres
 * Experiencias en programación y computación
+* Por qué estás estudiando diseño?
 * Por qué tomaste este curso?
-* Qué quieres aprender de este curso?
 
 ## Presentación de profesor (30 min)
 
@@ -71,7 +77,7 @@ Herramientas y comunidades:
 * [The Untold History of Arduino](https://arduinohistory.github.io/)
 * [Arduino The Documentary (2010)](https://vimeo.com/18390711)
 
-## Control de versiones en GitHub.com (60 min)
+## Control de versiones en GitHub.com (45 min)
 
 Crear repositorios
 Subir archivos
