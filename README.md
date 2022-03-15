@@ -49,6 +49,7 @@ Durante este curso usaremos los siguientes hardware:
 
 * Computador con sistemas operativos Linux, Mac, o Windows
 * Microcontrolador Arduino Uno, Nano, o similar
+* Cable USB
 * Breadboard / protoboard
 * Cables Dupont
 * Potenciómetros
@@ -58,14 +59,26 @@ Durante este curso usaremos los siguientes hardware:
 Durante este curso usaremos los siguientes software:
 
 * Cuenta personal y grauita de [https://github.com/](https://github.com/)
-* Navegador web, se recomienda Firefox o Google Chrome
+* Navegador web, se recomienda [Mozilla Firefox](https://www.mozilla.org/)
 * Arduino IDE 1.8.19, disponible en [https://www.arduino.cc/](https://www.arduino.cc/)
 * Processing 4.0, disponible en [https://processing.org/](https://processing.org/)
-* Editor de texto, se recomienda Visual Studio Code y Atom
+* Editor de texto, se recomienda [Visual Studio Code](https://code.visualstudio.com/)
 
-## Motivaciones
+## Aprendizajes
 
-* Introducir rudimentos de electrónica
-* Introducir rudimentos de programación de microcontroladores
-* Introducir rudimentos de diseño de interfaces electrónicas para audio y video
-* Introducir un marco teórico y ético en torno al uso de microcontroladores
+* Electrónica y circuitos digitales
+* Programación de microcontroladores
+* Diseño de interfaces electrónicas para humanos
+* Consideraciones éticas digitales
+* Estrategias de publicación de software y hardware abiertos
+
+## Evaluaciones
+
+Las notas van entre 1.0 y 7.0, con resolución de un decimal.
+
+La nota final del curso es el promedio simple de 4 notas:
+
+* Asistencia: inasistencias justificadas valen media asistencia, pueden faltar 3 veces.
+* Participación: en clase o web vía u-cursos y GitHub.
+* Tareas: una tarea todas las semanas, las 3 peores no cuentan.
+* Proyecto final: evaluación incluye código, documentación y presentación.
