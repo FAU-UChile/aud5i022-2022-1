@@ -1,13 +1,21 @@
 # clase-02
 
+Computadores y microcontroladores
+
+## Actividad
+
+Qué es un computador
+
+
+
 ## Introducción a microcontroladores
 
 Diferencias entre computadores y microcontroladores.
 
 Actividad: 
 
-Listar para qué los computadores son buenos y malos.
-Lo mismo con personas.
+Hacer una lista sobre qué actividades los computadores y las personas
+realizan de forma fácil y difícil
 
 ## Herramientas para programar Arduino
 
