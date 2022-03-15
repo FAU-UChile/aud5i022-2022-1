@@ -30,3 +30,23 @@ Profesor: [github.com/montoyamoraga](Aarón Montoya-Moraga)
 * [clase-16/](clase-16/): 2022-07-05
 * [clase-17/](clase-17/): 2022-07-12
 * [clase-18/](clase-18/): 2022-07-19
+
+## Herramientas
+
+Durante este curso usaremos los siguientes hardware:
+
+* Computador con sistemas operativos Linux, Mac, o Windows.
+* Microcontrolador Arduino Uno, Nano, o similar.
+* Breadboard
+* Cables Dupont
+* Potenciómetros
+* Resistencias
+* LEDs
+
+Durante este curso usaremos los siguientes software:
+
+* Cuenta personal y grauita de [https://github.com/](https://github.com/)
+* Navegador web, se recomienda Firefox o Google Chrome
+* Arduino IDE 1.8.19, disponible en [https://www.arduino.cc/](https://www.arduino.cc/)
+* Processing 4.0, disponible en [https://processing.org/](https://processing.org/)
+* Editor de texto, se recomienda Visual Studio Code y Atom.
