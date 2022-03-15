@@ -17,25 +17,25 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 ## Clases
 
 | Clase | Fecha | Tema |
-|:-|:-|:-|
-| [clase-01](clases/clase-01/) | 2022-03-15 | Introducción |
-| [clase-02](clases/clase-02/) | 2022-03-22 | Introducción |
-| [clase-03](clases/clase-03/) | 2022-03-29 | Introducción |
-| [clase-04](clases/clase-04/) | 2022-04-05 | Introducción |
-| [clase-05](clases/clase-05/) | 2022-04-12 | Introducción |
-| [clase-06](clases/clase-06/) | 2022-04-19 | Introducción |
-| [clase-07](clases/clase-07/) | 2022-04-26 | Introducción |
-| [clase-08](clases/clase-08/) | 2022-05-03 | Introducción |
-| [clase-09](clases/clase-09/) | 2022-05-10 | Introducción |
-| [clase-10](clases/clase-10/) | 2022-05-24 | Introducción |
-| [clase-11](clases/clase-11/) | 2022-05-31 | Introducción |
-| [clase-12](clases/clase-12/) | 2022-06-07 | Introducción |
-| [clase-13](clases/clase-13/) | 2022-06-14 | Introducción |
-| [clase-14](clases/clase-14/) | 2022-06-21 | Introducción |
-| [clase-15](clases/clase-15/) | 2022-06-28 | Introducción |
-| [clase-16](clases/clase-16/) | 2022-07-05 | Introducción |
-| [clase-17](clases/clase-17/) | 2022-07-12 | Introducción |
-| [clase-18](clases/clase-18/) | 2022-07-19 | Conclusiones |
+|  :-------------------- | :--------- | :-------------------------------- |
+| [01](clases/clase-01/) | 2022-03-15 | Introducción                      |
+| [02](clases/clase-02/) | 2022-03-22 | Fundamentos de electrónica        |
+| [03](clases/clase-03/) | 2022-03-29 | Fundamentos de microcontroladores |
+| [04](clases/clase-04/) | 2022-04-05 | Introducción |
+| [05](clases/clase-05/) | 2022-04-12 | Introducción |
+| [06](clases/clase-06/) | 2022-04-19 | Introducción |
+| [07](clases/clase-07/) | 2022-04-26 | Introducción |
+| [08](clases/clase-08/) | 2022-05-03 | Introducción |
+| [09](clases/clase-09/) | 2022-05-10 | Introducción |
+| [10](clases/clase-10/) | 2022-05-24 | Introducción |
+| [11](clases/clase-11/) | 2022-05-31 | Introducción |
+| [12](clases/clase-12/) | 2022-06-07 | Introducción |
+| [13](clases/clase-13/) | 2022-06-14 | Introducción |
+| [14](clases/clase-14/) | 2022-06-21 | Introducción |
+| [15](clases/clase-15/) | 2022-06-28 | Introducción |
+| [16](clases/clase-16/) | 2022-07-05 | Introducción |
+| [17](clases/clase-17/) | 2022-07-12 | Introducción |
+| [18](clases/clase-18/) | 2022-07-19 | Conclusiones |
 
 ## Herramientas
 
