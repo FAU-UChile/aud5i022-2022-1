@@ -6,18 +6,24 @@
 
 Usaremos señales unidimensionales, y en función del tiempo t.
 
-En contraste, existen funciones bidimensionales como
+También existen funciones en múltiples dimensiones, como
+altura de un terreno en coordenada (x, y), pero no veremos eso hoy.
 
+Señales analógicas tienen valor en todo momento:
 
+* Notación y(t)
+* t es continuo
+* y(t) es continuo
 
-Señales analógicas:
-* Valores continuos
-* Todo tiempo
+Análogo significa similar, porque las señales analógicas también se parecen a otras.
 
-* Valor tienen valores en todo momento.
+Transducción + error.
+
+Termómetro indica temperatura, en cada momento.
 
 Ejemplos de señales analógicas:
 
+* Temperatura
 * Presión atmosférica
 * Música en un vinilo
 * Sonido de una guitarra eléctrica
@@ -102,5 +108,14 @@ Diferencias entre espacios y tabulaciones.
 
 Diferencias entre UTF-8 y emojis y sistemas de Strings.
 
-# Actividad: programar semáforo en Processing
+## Actividad: programar semáforo en Processing (1 hora)
+
+## Materiales
+
+Comprar materiales próxima clase
+
+## Próxima clase
+
+* Programar semáforo en Arduino
+
 
