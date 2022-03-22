@@ -1,6 +1,6 @@
 # clase-02
 
-## repaso clase anterior y programa hoy (15 min)
+## repaso clase anterior y programa hoy (5 min)
 
 la clase pasada aprendimos:
 
@@ -54,7 +54,7 @@ ejemplos de transductores / sensores análogos:
 | fotoresistor        | intensidad de luz   | resistencia |
 | perilla             | posición (ángulo)   | resistencia |
 
-la transducción no es perfeca, siempre introduce errores y distorsión.
+la transducción no es perfecta, siempre introduce errores y distorsión.
 
 esto no necesariamente es malo, de hecho en música estas diferencias resultan en sabores musicales distintos. más info sobre distintos tipos de compresores [https://reverb.com/news/what-are-the-types-of-compressor-effects-the-basics](https://reverb.com/news/what-are-the-types-of-compressor-effects-the-basics)
 
@@ -72,18 +72,32 @@ ejemplos de señales digitales:
 * imagen en un computador
 * tiempo en un reloj digital
 
-una señal analógica se puede obtener desde un sensor,
+## conjuntos y sistemas de números (30 min)
 
-ejemplos de señales digitales:
+conjuntos:
 
-| sensor              | resolución          | salida      |
-| :------------------ | :------------------ | :---------- |
-| integer 8 bits      | presión atmosférica | voltaje     |
-| cápsula de guitarra | vibración de cuerda | voltaje     |
-| fotoresistor        | intensidad de luz   | resistencia |
-| perilla             | posición (ángulo)   | resistencia |
+* números naturales: los que contamos con los dedos. (supuesto: cada unidad es equivalente) por qué contamos con diez dedos? 1,2,3,...
+* números enteros: números que pueden ser escritos sin fracciones ...,-3,-2,-1,0,1,2,3,....
+* números racionales: números que pueden ser escritos como fracciones de dos números enteros.
+* números reales: números con parte decimal, sirven para medir distancias.
+* números irracionales: números que son reales, pero no racionales, como √2 y π.
+* números complejos: números que poseen coordenadas reales e imaginarias.
 
-## pausa: materiales (15 min)
+demostración interesante:
+
+* los números naturales son infinitos.
+* los números enteros se pueden contar con naturales, son igualmente infinitos.
+* los números racionales son aún más infinitos.
+
+sistemas:
+
+* decimal: base 10
+* binario: base 2
+* hexadecimal: base 16
+
+actividad: escribamos los primeros 20 números, empezando desde 0, usando los sistemas decimal, binario y hexadecimal.
+
+## pausa: materiales (10 min)
 
 los materiales necesarios para esta clase están descritos en la página principal de este repositorio.
 
@@ -93,62 +107,42 @@ coordinar con profesor si quieren comprar en grupo.
 
 ## computadores y microcontroladores (45 min)
 
-## conjuntos de números
+definición de computador:
 
-* números naturales: los que contamos con los dedos. (supuesto: cada unidad es equivalente) por qué contamos con diez dedos? 1,2,3,...
-* números enteros: números que pueden ser escritos sin fracciones ...,-3,-2,-1,0,1,2,3,....
-* números racionales: números que pueden ser escritos como fracciones de dos números enteros.
-* números reales: números con parte decimal, sirven para medir distancias.
-* números irracionales: números que son reales, pero no racionales, como √2 y π.
-* números complejos: números que poseen coordenadas reales e imaginarias.
+* máquina digital electrónica programable con lógica y aritmética
+* está compuesto de muchos elementos reemplazables: CPU, GPU, memorias, etc
+* características: + velocidad, + tareas, + costo, + complejidad
 
-## sistemas de números
+definición de microcontrolador:
 
-* sistema decimal: sistema de contar con base 10.
-* sistema binario: sistema de contar con base 2.
-* sistema hexadecimal: sistema de contar con base 16.
+* máquina digital electrónica programable con lógica y aritmética
+* computador pequeño que cabe en un único chip
+* el chip incluye CPU, memoria, timer, puertos seriales, input/output
+* características: - velocidad, - tareas, - costo, - complejidad
 
-## actividad: escribir 20 números
-
-escribamos los primeros 20 números, empezando desde 0, usando los sistemas decimal, binario y hexadecimal.
-
-### actividad: qué es un computador?
-
-la clase construye una definición de qué es un computador.
+actividad: hacer una lista sobre tareas fáciles y difíciles para  computadores y personas.
 
 
-## Introducción a microcontroladores
+más info sobre personas pioneras en computación:
 
-Diferencias entre computadores y microcontroladores.
+* [Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)
+* [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace)
+* [Programmed inequality](https://mitpress.mit.edu/books/programmed-inequality), libro de [Mar Hicks](https://marhicks.com/)
 
-Actividad: 
+## programar semáforo en Processing (45 min)
 
-Hacer una lista sobre qué actividades los computadores y las personas
-realizan de forma fácil y difícil
-
-https://www.random.org/
-
-## Código y comentarios
-
-https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit
-
-## qué es código
-
-
-Diferencias entre espacios y tabulaciones.
-
-Diferencias entre UTF-8 y emojis y sistemas de Strings.
-
-## actividad: programar semáforo en Processing (45 min)
-
-abriremos la aplicación Processing, para programar un semáforo de 3 luces,
-donde usamos variables para definir colores, duraciones de luces y posiciones.
+usando la aplicación Processing 4.x, programamos un semáforo de 3 luces, usando variables para definir colores, duraciones de luces y posiciones.
 
 la solución propuesta está en la carpeta asociada a esta clase.
 
-## próxima clase
+actividad: cuántos números enteros de 8 bits caben en nuestro computador?
+[https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit](https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit)
+
+[https://github.com/montoyamoraga/infinite-folders](https://github.com/montoyamoraga/infinite-folders)
+
+## próxima clase (5 min)
 
 * electricidad y magnetismo
+* componentes eléctricos
 * programar semáforo en Arduino
-
-
+* construir circuito para semáforo
