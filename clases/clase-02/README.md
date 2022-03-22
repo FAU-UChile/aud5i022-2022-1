@@ -117,8 +117,6 @@ escribamos los primeros 20 números, empezando desde 0, usando los sistemas deci
 la clase construye una definición de qué es un computador.
 
 
-
-
 ## Introducción a microcontroladores
 
 Diferencias entre computadores y microcontroladores.
@@ -134,8 +132,7 @@ https://www.random.org/
 
 https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit
 
-
-## Qué es código
+## qué es código
 
 Explicar diferencia entre Microsoft Word y editores de texto.
 
@@ -143,14 +140,16 @@ Diferencias entre espacios y tabulaciones.
 
 Diferencias entre UTF-8 y emojis y sistemas de Strings.
 
-## Actividad: programar semáforo en Processing (60 min)
+## actividad: programar semáforo en Processing (45 min)
 
-## Materiales
+abriremos la aplicación Processing, para programar un semáforo de 3 luces,
+donde usamos variables para definir colores, duraciones de luces y posiciones.
 
-Comprar materiales próxima clase
+la solución propuesta está en la carpeta asociada a esta clase.
 
-## Próxima clase
+## próxima clase
 
-* Programar semáforo en Arduino
+* electricidad y magnetismo
+* programar semáforo en Arduino
 
 
