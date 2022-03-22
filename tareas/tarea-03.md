@@ -14,5 +14,4 @@ segunda parte:
 
 inventa y describe un sensor para usar con un microcontrolador Arduino. Incluye todas las características que quieras, como color, precio, tamaño, peso, legalidad, consideraciones éticas, privacidad, factibilidad técnica, instrucciones de uso.
 
-
 entrega: en el repositorio [https://github.com/aud5i022-2022-1/tarea-03](https://github.com/aud5i022-2022-1/tarea-03), crea una "pull request", para agregar una carpeta con tu nombre, y dentro de esa carpeta, un archivo llamado README.md que contenga tu respuesta.
