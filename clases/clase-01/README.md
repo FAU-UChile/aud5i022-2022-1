@@ -2,7 +2,7 @@
 
 interfaces electrónicas
 
-## Programa y organización (15 min)
+## programa y organización (15 min)
 
 los materiales de este curso se encuentran en las siguientes web:
 
