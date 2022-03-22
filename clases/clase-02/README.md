@@ -134,7 +134,6 @@ https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit
 
 ## qué es código
 
-Explicar diferencia entre Microsoft Word y editores de texto.
 
 Diferencias entre espacios y tabulaciones.
 

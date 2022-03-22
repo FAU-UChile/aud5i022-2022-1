@@ -54,10 +54,18 @@ https://en.wikipedia.org/wiki/ATmega328
 
 ## Instalación de editor de código
 
+Explicar diferencia entre Microsoft Word y editores de texto.
+
 Atom
 Sublime
 Visual Studio Code
 Emacs
+
+## qué es código
+
+Diferencias entre espacios y tabulaciones.
+
+Diferencias entre UTF-8 y emojis y sistemas de Strings.
 
 ## convenciones en Arduino
 
