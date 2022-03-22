@@ -1,33 +1,59 @@
 # clase-02
 
-## Repaso clase anterior (15 min)
+## repaso clase anterior y programa hoy (14 min)
 
-## Señales analógicas y digitales (1 hora)
+la clase pasada aprendimos:
 
-Usaremos señales unidimensionales, y en función del tiempo t.
+* presentaciones 
+* contexto artes mediales y Arduino
+* Git, GitHub y Markdown
 
-También existen funciones en múltiples dimensiones, como
+hoy aprenderemos:
+
+* señales analógicas y digitales
+* computadores y microcontroladores
+* programar semáforo usando Processing
+
+## señales analógicas y digitales (45 min)
+
+usaremos señales unidimensionales, y en función del tiempo t.
+
+también existen funciones en múltiples dimensiones, como
 altura de un terreno en coordenada (x, y), pero no veremos eso hoy.
 
-Señales analógicas tienen valor en todo momento:
+las señales analógicas tienen valor en todo momento:
 
-* Notación y(t)
+* notación y(t)
 * t es continuo
 * y(t) es continuo
 
-Análogo significa similar, porque las señales analógicas también se parecen a otras.
+ejemplos de señales analógicas:
+
+* presión atmosférica
+* temperatura de un lugar
+* sonido en un disco de vinilo
+* salida de un micrófono
+
+análogo significa similar, porque las señales analógicas también se parecen a otras.
+
+una señal analógica se puede obtener desde un sensor,
+
+ejemplos de sensores:
+
+| sensor    | entrada             | salida  |
+| :-------- | :------------------ | :------ |
+| micrófono | presión atmosférica | voltaje |
+
+
+
+* micrófono
+* cápsula de guitarra eléctrica
+* 
 
 Transducción + error.
 
 Termómetro indica temperatura, en cada momento.
 
-Ejemplos de señales analógicas:
-
-* Temperatura
-* Presión atmosférica
-* Música en un vinilo
-* Sonido de una guitarra eléctrica
-* Temperatura corporal
 
 Las señales digitales tienen valores DISCRETOS
 
@@ -35,12 +61,15 @@ Ejemplos de señales digitales:
 
 * Música en un disco compacto o streaming
 
-
-
 Más información:
 
 * Señales y sistemas, Alan V. Oppenheim y Alan S. Willsky.
 
+## computadores y microcontroladores (1 hora)
+
+### actividad: qué es un computador?
+
+la clase construye una definición de qué es un computador.
 
 ## Sistemas de números
 
@@ -50,16 +79,6 @@ Por qué contamos con diez dedos?
 ## Actividad en clases:
 
 Escribir los primeros 20 números, empezando desde 0, usando sistemas decimal, binario y hexadecimal.
-
-
-
-
-Computadores y microcontroladores
-
-## Actividad
-
-Qué es un computador
-
 
 
 ## Introducción a microcontroladores
@@ -73,15 +92,7 @@ realizan de forma fácil y difícil
 
 https://www.random.org/
 
-## Herramientas para programar Arduino
-
-Arduino IDE
-
-C++
-
 ## Código y comentarios
-
-## Instalación de Arduino IDE
 
 ## Instalación de editor de código
 
@@ -89,16 +100,6 @@ Atom
 Sublime
 Visual Studio Code
 Emacs
-
-## Convenciones en Arduino
-
-### setup()
-
-setup() ocurre una vez, al principio de los tiempos.
-
-### loop()
-
-loop() ocurre después de setup(), en bucle, hasta el fin.
 
 ## Qué es código
 
