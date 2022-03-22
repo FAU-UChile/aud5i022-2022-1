@@ -1,10 +1,10 @@
 # clase-02
 
-## repaso clase anterior y programa hoy (14 min)
+## repaso clase anterior y programa hoy (15 min)
 
 la clase pasada aprendimos:
 
-* presentaciones 
+* presentaciones
 * contexto artes mediales y Arduino
 * Git, GitHub y Markdown
 
@@ -16,14 +16,18 @@ hoy aprenderemos:
 
 ## señales analógicas y digitales (45 min)
 
+supondremos que nuestras señales son del mundo real:
+
+* señales unidimensionales
+* señales en función del tiempo t
+
+más (demasiada) información:
+
+* señales y sistemas, Alan V. Oppenheim y Alan S. Willsky.
+
 ### señales analógicas
 
-usaremos señales unidimensionales, y en función del tiempo t.
-
-también existen funciones en múltiples dimensiones, como
-altura de un terreno en coordenada (x, y), pero no veremos eso hoy.
-
-las señales analógicas tienen valores continuos en todo momento:
+las señales analógicas tienen **valores continuos** en **todo momento**:
 
 * notación y(t)
 * t es continuo
@@ -56,7 +60,7 @@ esto no necesariamente es malo, de hecho en música estas diferencias resultan e
 
 ### señales digitales
 
-las señales digitales tienen valores discretos en momentos discretos:
+las señales digitales tienen **valores discretos** en **momentos discretos**:
 
 * notación y[n]
 * n es discreto
@@ -66,47 +70,53 @@ ejemplos de señales digitales:
 
 * sonido en un disco compacto
 * imagen en un computador
-* número de  
-* salida de un micrófono
-
-análogo significa similar, porque las señales analógicas también se parecen a otras.
+* tiempo en un reloj digital
 
 una señal analógica se puede obtener desde un sensor,
 
-ejemplos de transductores / sensores análogos:
+ejemplos de señales digitales:
 
-| sensor              | entrada             | salida      |
+| sensor              | resolución          | salida      |
 | :------------------ | :------------------ | :---------- |
-| micrófono           | presión atmosférica | voltaje     |
+| integer 8 bits      | presión atmosférica | voltaje     |
 | cápsula de guitarra | vibración de cuerda | voltaje     |
 | fotoresistor        | intensidad de luz   | resistencia |
 | perilla             | posición (ángulo)   | resistencia |
 
+## pausa: materiales (15 min)
 
-Las señales digitales tienen valores DISCRETOS
+los materiales necesarios para esta clase están descritos en la página principal de este repositorio.
 
-Ejemplos de señales digitales:
+se recomienda adquirir el kit de MCI electronics, disponible en [Mercado Libre](https://articulo.mercadolibre.cl/MLC-972588441-kit-iniciacion-basico-oem-compatible-con-arduino-_JM) a 13.990 CLP.
 
-* 
+coordinar con profesor si quieren comprar en grupo.
 
-Más información:
+## computadores y microcontroladores (45 min)
 
-* Señales y sistemas, Alan V. Oppenheim y Alan S. Willsky.
+## conjuntos de números
 
-## computadores y microcontroladores (1 hora)
+* números naturales: los que contamos con los dedos. (supuesto: cada unidad es equivalente) por qué contamos con diez dedos? 1,2,3,...
+* números enteros: números que pueden ser escritos sin fracciones ...,-3,-2,-1,0,1,2,3,....
+* números racionales: números que pueden ser escritos como fracciones de dos números enteros.
+* números reales: números con parte decimal, sirven para medir distancias.
+* números irracionales: números que son reales, pero no racionales, como √2 y π.
+* números complejos: números que poseen coordenadas reales e imaginarias.
+
+## sistemas de números
+
+* sistema decimal: sistema de contar con base 10.
+* sistema binario: sistema de contar con base 2.
+* sistema hexadecimal: sistema de contar con base 16.
+
+## actividad: escribir 20 números
+
+escribamos los primeros 20 números, empezando desde 0, usando los sistemas decimal, binario y hexadecimal.
 
 ### actividad: qué es un computador?
 
 la clase construye una definición de qué es un computador.
 
-## Sistemas de números
 
-* Números naturales: los que contamos con los dedos. Supuesto: cada unidad es comparable.
-Por qué contamos con diez dedos?
-
-## Actividad en clases:
-
-Escribir los primeros 20 números, empezando desde 0, usando sistemas decimal, binario y hexadecimal.
 
 
 ## Introducción a microcontroladores
@@ -122,12 +132,8 @@ https://www.random.org/
 
 ## Código y comentarios
 
-## Instalación de editor de código
+https://www.wolframalpha.com/input?i=2+GB+%2F+8+bit
 
-Atom
-Sublime
-Visual Studio Code
-Emacs
 
 ## Qué es código
 
@@ -137,7 +143,7 @@ Diferencias entre espacios y tabulaciones.
 
 Diferencias entre UTF-8 y emojis y sistemas de Strings.
 
-## Actividad: programar semáforo en Processing (1 hora)
+## Actividad: programar semáforo en Processing (60 min)
 
 ## Materiales
 
