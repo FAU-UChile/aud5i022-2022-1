@@ -52,6 +52,13 @@ https://en.wikipedia.org/wiki/Arduino_Uno
 
 https://en.wikipedia.org/wiki/ATmega328
 
+## Instalación de editor de código
+
+Atom
+Sublime
+Visual Studio Code
+Emacs
+
 ## convenciones en Arduino
 
 ### setup()
