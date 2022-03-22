@@ -1,34 +1,35 @@
 # clase-01
 
-Interfaces electrónicas
+interfaces electrónicas
 
 ## Programa y organización (15 min)
 
-Los materiales de este curso se encuentran las siguientes web:
+los materiales de este curso se encuentran en las siguientes web:
 
 * u-cursos.cl: para publicación de notas y tareas
 * repositorio [https://github.com/montoyamoraga/aud5i022-2022-1](https://github.com/montoyamoraga/aud5i022-2022-1)
 * organización [https://github.com/aud5i022-2022-1](https://github.com/aud5i022-2022-1)
 
-## Códigos de conducta (15 min)
+## códigos de conducta (15 min)
 
-* [Reglamento  de Estudiantes de la Universidad de Chile](https://www.uchile.cl/portal/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/67177/reglamento-de-estudiantes-de-la-universidad-de-chile)
-* [Berlin Code of Conduct](https://berlincodeofconduct.org/es/)
+* [reglamento de estudiantes de la Universidad de Chile](https://www.uchile.cl/portal/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/67177/reglamento-de-estudiantes-de-la-universidad-de-chile)
+* [berlin code of conduct](https://berlincodeofconduct.org/es/)
 * [p5.js community statement](https://p5js.org/es/community/)
 
-## Presentaciones de estudiantes (45 min)
+## presentaciones de estudiantes (45 min)
 
-Cada estudiante se presenta durante 90 segundos, respondiendo un subconjunto de las siguientes preguntas:
+cada estudiante se presenta durante 90 segundos, respondiendo un subconjunto de las siguientes preguntas:
 
-* Nombre
-* Pronombres
-* Experiencias en programación y computación
-* Por qué estás estudiando diseño?
-* Por qué tomaste este curso?
+* nombre
+* pronombres
+* experiencias en programación y computación
+* por qué estás estudiando diseño?
+* por qué tomaste este curso?
 
-## Presentación de profesor (30 min)
+## presentación de profesor (30 min)
 
-Direcciones web:
+direcciones web:
+
 * [https://montoyamoraga.io/](https://montoyamoraga.io/)
 * [https://github.com/montoyamoraga/](https://github.com/montoyamoraga/)
 
@@ -41,14 +42,14 @@ Organizaciones:
 * [Processing Foundation](https://processingfoundation.org/)
 * [School of Machines, Making & Make Believe](https://www.schoolofma.org/)
 
-Investigación:
+investigación:
 
-* Educación, archivo y publicación en artes mediales
-* Diseño de instrumentos reprogramables y de fuente abierta
-* Ética en tecnologías digitales
-* Redes peer-to-peer y decentralizadas para artes
+* educación, archivo y publicación en artes mediales
+* diseño de instrumentos reprogramables y de fuente abierta
+* ética en tecnologías digitales
+* redes peer-to-peer y decentralizadas para artes
 
-Herramientas y comunidades:
+herramientas y comunidades:
 
 * [p5.js](https://p5js.org/)
 * [Processing](https://processing.org/)
@@ -57,7 +58,7 @@ Herramientas y comunidades:
 * [ChucK](https://chuck.cs.princeton.edu/)
 * [KiCad](https://www.kicad.org/)
 
-## Referencias del curso (15 min)
+## referencias del curso (15 min)
 
 * [Visible Languages Workshop](https://act.mit.edu/special-collections/vlw-archive/)
 * [Aesthetics + Computation Group](https://acg.media.mit.edu/)
@@ -69,7 +70,7 @@ Herramientas y comunidades:
 * [Ciat-Lonbarde](https://www.ciat-lonbarde.net/)
 * [NYU ITP Physical Computing](https://itp.nyu.edu/physcomp/itp/)
 
-## Historia de Arduino (15 min)
+## historia de Arduino (15 min)
 
 * [Arduino](https://www.arduino.cc/)
 * [Processing](https://processing.org/)
@@ -77,9 +78,9 @@ Herramientas y comunidades:
 * [The Untold History of Arduino](https://arduinohistory.github.io/)
 * [Arduino The Documentary (2010)](https://vimeo.com/18390711)
 
-## Control de versiones en GitHub.com (45 min)
+## control de versiones en GitHub.com (45 min)
 
-* Crear repositorios
-* Subir archivos a repositorios
+* crear repositorios
+* subir archivos a repositorios
 * [Markdown](https://en.wikipedia.org/wiki/Markdown)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
