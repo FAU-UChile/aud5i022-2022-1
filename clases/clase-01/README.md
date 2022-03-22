@@ -79,7 +79,7 @@ Herramientas y comunidades:
 
 ## Control de versiones en GitHub.com (45 min)
 
-Crear repositorios
-Subir archivos
-Proponer 
-Pull requests
+* Crear repositorios
+* Subir archivos a repositorios
+* [Markdown](https://en.wikipedia.org/wiki/Markdown)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
