@@ -16,12 +16,14 @@ hoy aprenderemos:
 
 ## señales analógicas y digitales (45 min)
 
+### señales analógicas
+
 usaremos señales unidimensionales, y en función del tiempo t.
 
 también existen funciones en múltiples dimensiones, como
 altura de un terreno en coordenada (x, y), pero no veremos eso hoy.
 
-las señales analógicas tienen valor en todo momento:
+las señales analógicas tienen valores continuos en todo momento:
 
 * notación y(t)
 * t es continuo
@@ -30,6 +32,7 @@ las señales analógicas tienen valor en todo momento:
 ejemplos de señales analógicas:
 
 * presión atmosférica
+* fotografía polaroid
 * temperatura de un lugar
 * sonido en un disco de vinilo
 * salida de un micrófono
@@ -38,28 +41,53 @@ análogo significa similar, porque las señales analógicas también se parecen 
 
 una señal analógica se puede obtener desde un sensor,
 
-ejemplos de sensores:
+ejemplos de transductores / sensores análogos:
 
-| sensor    | entrada             | salida  |
-| :-------- | :------------------ | :------ |
-| micrófono | presión atmosférica | voltaje |
+| sensor              | entrada             | salida      |
+| :------------------ | :------------------ | :---------- |
+| micrófono           | presión atmosférica | voltaje     |
+| cápsula de guitarra | vibración de cuerda | voltaje     |
+| fotoresistor        | intensidad de luz   | resistencia |
+| perilla             | posición (ángulo)   | resistencia |
 
+la transducción no es perfeca, siempre introduce errores y distorsión.
 
+esto no necesariamente es malo, de hecho en música estas diferencias resultan en sabores musicales distintos. más info sobre distintos tipos de compresores [https://reverb.com/news/what-are-the-types-of-compressor-effects-the-basics](https://reverb.com/news/what-are-the-types-of-compressor-effects-the-basics)
 
-* micrófono
-* cápsula de guitarra eléctrica
-* 
+### señales digitales
 
-Transducción + error.
+las señales digitales tienen valores discretos en momentos discretos:
 
-Termómetro indica temperatura, en cada momento.
+* notación y[n]
+* n es discreto
+* y(t) es discreto
+
+ejemplos de señales digitales:
+
+* sonido en un disco compacto
+* imagen en un computador
+* número de  
+* salida de un micrófono
+
+análogo significa similar, porque las señales analógicas también se parecen a otras.
+
+una señal analógica se puede obtener desde un sensor,
+
+ejemplos de transductores / sensores análogos:
+
+| sensor              | entrada             | salida      |
+| :------------------ | :------------------ | :---------- |
+| micrófono           | presión atmosférica | voltaje     |
+| cápsula de guitarra | vibración de cuerda | voltaje     |
+| fotoresistor        | intensidad de luz   | resistencia |
+| perilla             | posición (ángulo)   | resistencia |
 
 
 Las señales digitales tienen valores DISCRETOS
 
 Ejemplos de señales digitales:
 
-* Música en un disco compacto o streaming
+* 
 
 Más información:
 
