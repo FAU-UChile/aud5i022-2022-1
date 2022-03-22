@@ -2,7 +2,7 @@
 
 crear cuenta github.com
 
-Tiempo de dedicación estimado: 20m
+tiempo de dedicación estimado: 20m
 
 en este curso usaremos la plataforma github.com para compartir código y tareas.
 
