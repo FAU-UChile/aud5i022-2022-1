@@ -20,9 +20,9 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 * [clases/](clases/): documentos correspondientes a cada clase
 * [utilidades/](utilidades/): documentos de apoyo
 
-## Clases
+## clases
 
-| Clase | Fecha | Tema |
+| clase | fecha | tema |
 |  :-------------------- | :--------- | :-------------------------------- |
 | [01](clases/clase-01/) | 2022-03-15 | interfaces electrónicas           |
 | [02](clases/clase-02/) | 2022-03-22 | computadores y microcontroladores |
