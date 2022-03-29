@@ -1,6 +1,6 @@
 # clase-01
 
-martes 15 marzo 2022
+martes 15 marzo 2022, presencial
 
 interfaces electrónicas
 

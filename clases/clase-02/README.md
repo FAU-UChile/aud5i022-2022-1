@@ -1,5 +1,7 @@
 # clase-02
 
+martes 22 marzo 2022, presencial
+
 ## repaso clase anterior y programa hoy (5 min)
 
 la clase pasada aprendimos:

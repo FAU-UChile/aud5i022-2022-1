@@ -1,5 +1,7 @@
 # clase-03
 
+martes 29 marzo 2022, virtual
+
 ## repaso clase anterior y programa hoy (10 min)
 
 la clase pasada aprendimos:
