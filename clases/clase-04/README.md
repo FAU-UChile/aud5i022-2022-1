@@ -2,11 +2,12 @@
 
 martes 05 abril 2022, presencial
 
+## repaso clase anterior y programa hoy (10 min)
 
-# Ética y computación
+la clase pasada aprendimos:
 
-Algorithmic Justice League
+* bla
 
-Design Justice
+hoy aprenderemos:
 
-Coded Bias
+* bla
