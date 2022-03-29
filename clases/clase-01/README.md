@@ -1,5 +1,7 @@
 # clase-01
 
+martes 15 marzo 2022
+
 interfaces electrónicas
 
 ## programa y organización (15 min)
