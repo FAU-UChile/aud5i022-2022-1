@@ -63,11 +63,6 @@ Sublime
 Visual Studio Code
 Emacs
 
-aleatoreidad
-
-* [https://www.random.org/]
-
-
 ## qué es código
 
 Diferencias entre espacios y tabulaciones.
