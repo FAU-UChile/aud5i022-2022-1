@@ -1,4 +1,4 @@
-// ejemplo_dado
+// ej_03_arrojar_dado
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19

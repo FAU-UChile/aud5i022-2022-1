@@ -38,7 +38,32 @@ void loop() {
 }
 ```
 
-programemos nuestros primeros ejemplos solamente usando nuestro microcontrolador Arduino Uno y el cable USB, sin hardware adicional.
+nuestro Arduino puede almacenar distintos tipos de variables, las que son útiles para distintos propósitos.
+
+en este curso usaremos las siguientes:
+
+```C++
+
+// bool almacena valores verdadero o falso (true, false)
+bool verdad = true;
+
+// byte almacena 8 bits, valores enteros entre 0 y 255
+byte ochoBits = 255;
+
+// int almacena numeros enteros, tamano 2 bytes = 16 bits
+int numeroEntero = -4;
+
+// float almacena numeros con parte decimal
+float numeroDecimales = 123.456;
+
+// char almacena un caracter, entre comillas simples ''
+char miInicial = 'a';
+// tambien puedes escribir directamente el valor decimal
+char miInicialDecimal = 141;
+
+// String almacena un arreglo de caracterers, entre comillas dobles ""
+String verso = "habia una vez";
+```
 
 ### ejemplo con LED interno
 
@@ -54,7 +79,24 @@ en el refresco (loop) hacemos que la nuestra salida digital del pin 13 alterne e
 
 ### ejemplo imprimir String
 
-código completo en [ej_01_led_imprimir_string](ej_00_led_interno)
+ código completo en [ej_01_led_imprimir_string](ej_01_led_imprimir_string)
+
+nuestro Arduino puede imprimir valores a través del puerto serial.
+
+estos mensajes podemos leerlos en el monitor serial del software Arduino IDE.
+
+en el monitor serial tenemos opciones de configuración de velocidad de [baudios](https://es.wikipedia.org/wiki/Baudio), de avanzar automáticamente, o de registrar el tiempo de llegada de cada mensaje.
+
+### ejemplo imprimir variables internas
+
+código completo en [ej_02_led_imprimir_variable](ej_02_led_imprimir_variable)
+
+también podemos imprimir valores de variables internas a través del puerto serial.
+
+### ejemplo arrojar dado
+
+código completo en [ej_03_arrojar_dado](ej_03_arrojar_dado)
+
 
 ## puerto serial y salida
 
