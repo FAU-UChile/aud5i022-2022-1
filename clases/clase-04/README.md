@@ -18,12 +18,32 @@ hoy aprenderemos:
 * programar semáforo en Arduino
 * construir circuito para semáforo
 
-## fundamentos de programación en Arduino
+## fundamentos de programación en Arduino (1 hora)
 
-Arduino está basado en Processing, y hereda las dos funciones principales:
+Arduino está basado en Processing, y hereda las 2 funciones principales:
 
-* setup() para configuración inicial. ocurre una vez, al principio de los tiempos.
-* loop() para refrescar. ocurre después de setup(), en bucle, hasta el fin.
+```C++
+// setup() ocurre al principio de los tiempos, una vez
+void setup() {
+
+  // codigo para configurar condiciones iniciales
+
+}
+
+// loop() ocurre despues de setup(), en bucle
+void loop() {
+
+  // codigo para refrescar, leer y escribir informacion
+
+}
+````
+
+programemos nuestros primeros ejemplos solamente usando nuestro microcontrolador Arduino Uno y el cable USB, sin hardware adicional.
+
+### ejemplo_00_led_interno
+
+código completo en [ej_00_led_interno](ej_00_led_interno)
+
 
 nuestro Arduino Uno tiene un LED interno conectado internamente al pin 13.
 
