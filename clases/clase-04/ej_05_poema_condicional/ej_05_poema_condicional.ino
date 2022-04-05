@@ -1,4 +1,4 @@
-// ejemplo_poema_condicional
+// ej_05_poema_condicional
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -12,13 +12,14 @@ int numeroMin = 48;
 // 9 equivale a 57 ASCII
 int numeroMax = 57;
 
-// arreglo de
+// arreglo de Strings
+// a su vez un String es un arreglo de chars
+// asterisco * es tema avanzado, pointers
 char *poema[] = {"verso0", "verso1", "verso2",
                  "verso3", "verso4", "verso5",
                  "verso6", "verso7", "verso8",
                  "verso9"
                 };
-
 
 // setup() ocurre una vez, al principio
 void setup() {

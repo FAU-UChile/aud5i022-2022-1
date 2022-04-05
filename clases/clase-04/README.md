@@ -79,7 +79,7 @@ en el refresco (loop) hacemos que la nuestra salida digital del pin 13 alterne e
 
 ### ejemplo imprimir String
 
- código completo en [ej_01_led_imprimir_string](ej_01_led_imprimir_string)
+ código completo en [ej_01_imprimir_string](ej_01_imprimir_string)
 
 nuestro Arduino puede imprimir valores a través del puerto serial.
 
@@ -89,7 +89,7 @@ en el monitor serial tenemos opciones de configuración de velocidad de [baudios
 
 ### ejemplo imprimir variables internas
 
-código completo en [ej_02_led_imprimir_variable](ej_02_led_imprimir_variable)
+código completo en [ej_02_imprimir_variable](ej_02_imprimir_variable)
 
 también podemos imprimir valores de variables internas a través del puerto serial.
 
@@ -97,121 +97,28 @@ también podemos imprimir valores de variables internas a través del puerto ser
 
 código completo en [ej_03_arrojar_dado](ej_03_arrojar_dado)
 
+podemos programar un Arduino para simular el acto de arrojar un dado, con valores mínino y máximo variables.
 
-## puerto serial y salida
+### ejemplo lectura serial
 
-para comunicar nuestro Arduino a través del puerto serial, debemos abrir el puerto y configurar una velocidad.
+código completo en [ej_04_lectura_serial](ej_04_lectura_serial)
 
-la velocidad estándar es de 9600 baud, y si quisiéramos transmitir por protocolo MIDI, la velociad es 115200 baud.
+este ejemplo nos permite usar el monitor serial para enviar caracteres a Arduino, y que Arduino indique que los recibió.
 
-```C++
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  Serial.println("hola :)");
-}
-```
-
-imprimamos una variable
-
-```C++
-int x = 1;
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  x = x + 1;
-  Serial.println(x);
-}
-```
-
-hagamos un dado digital, y practiquemos imprimir un mensaje en partes
-
-```C++
-int minDado = 1;
-int maxDado = 6;
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  Serial.print("dado: ");
-  Serial.println(random(minDado, maxDado + 1));
-  delay(1000);
-}
-```
-
-## puerto serial y entrada
-
-```C++
-int byteEntrada;
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-
-  if (Serial.available() > 0) {
-    //  leer el byte
-    byteEntrada = Serial.read();
-
-    // imprimir el resultado recibido en sistema decimal
-    Serial.print("recibido: ");
-    // DEC para asegurarnos que se imprime en decimal
-    Serial.println(byteEntrada, DEC);
-  }
-}
-```
-
-poema condicional
-
-```C++
-int byteEntrada;
-
-int numeroMin = 48;
-int numeroMax = 57;
-
-char *poema[] = {"verso0", "verso1", "verso2",
-                 "verso3", "verso4", "verso5",
-                 "verso6", "verso7", "verso8",
-                 "verso9"
-                };
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-
-  if (Serial.available() > 0) {
-    //  leer el byte
-    byteEntrada = Serial.read();
-
-    if (byteEntrada <= numeroMax && byteEntrada >= numeroMin) {
-      Serial.println(poema[byteEntrada-numeroMin]);
-    }
-  }
-}
-```
-
-
-
-
-el número impreso está en [ASCII](https://es.wikipedia.org/wiki/ASCII).
+el número impreso corresponde al valor [ASCII](https://es.wikipedia.org/wiki/ASCII) del caracter enviado.
 
 13 es CR, por carriage return, en español [retorno de carro](https://es.wikipedia.org/wiki/Retorno_de_carro).
 
-## conectar Arduino con componentes
+### ejemplo poema condicional
 
-## qué es código
+código completo en [ej_05_poema_condicional](ej_05_poema_condicional)
 
-Diferencias entre espacios y tabulaciones.
+este ejemplo permite escribir un poema interactivo en nuestro microcontrolador, que responde a nuestra entrada por puerto serial.
 
-Diferencias entre UTF-8 y emojis y sistemas de Strings.
+## programar semáforo con Arduino
+
+
+
+
+## construir circuito
 

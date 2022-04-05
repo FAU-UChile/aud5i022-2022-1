@@ -1,4 +1,4 @@
-// ejemplo_imprimir_variable
+// ej_02_imprimir_variable
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19

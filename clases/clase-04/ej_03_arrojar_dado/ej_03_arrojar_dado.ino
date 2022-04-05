@@ -2,8 +2,8 @@
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
-// valores minimos y maximos de dado
 
+// valores minimos y maximos de dado
 int minDado = 1;
 int maxDado = 6;
 
