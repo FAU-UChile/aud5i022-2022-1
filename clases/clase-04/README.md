@@ -115,10 +115,12 @@ código completo en [ej_05_poema_condicional](ej_05_poema_condicional)
 
 este ejemplo permite escribir un poema interactivo en nuestro microcontrolador, que responde a nuestra entrada por puerto serial.
 
-## programar semáforo con Arduino (45 minutos)
+## programar semáforo con Arduino y construir circuito (45 minutos)
 
 código completo en [ej_06_semaforo](ej_06_semaforo)
 
+usar 3 LEDs: rojo, verde, amarillo. conectar sus terminales negativos a tierra a través de una resistencia, y sus terminales positivos a un pin digital de Arduino.
 
-## construir circuito
+usar un boton, conectar uno de los pines a 5V, y el otro pin a tierra a través de una resistencia. conectar Arduino a este último pin para medirlo.
 
+![imagen de una protoboard con LEDs y Arduino para simular un semáforo](./imagenes/semaforo.jpg "Arduino simulando un semáforo")
