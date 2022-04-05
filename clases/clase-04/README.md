@@ -36,14 +36,13 @@ void loop() {
   // codigo para refrescar, leer y escribir informacion
 
 }
-````
+```
 
 programemos nuestros primeros ejemplos solamente usando nuestro microcontrolador Arduino Uno y el cable USB, sin hardware adicional.
 
-### ejemplo_00_led_interno
+### ejemplo con LED interno
 
 código completo en [ej_00_led_interno](ej_00_led_interno)
-
 
 nuestro Arduino Uno tiene un LED interno conectado internamente al pin 13.
 
@@ -53,20 +52,9 @@ en la configuración (setup) hacemos que el pin digital 13 sea una salida (OUTPU
 
 en el refresco (loop) hacemos que la nuestra salida digital del pin 13 alterne entre valores digitales 1 y 0, con una pausa de 1 segundo entre cada estado.
 
-```C++
-int pinLED = 13;
+### ejemplo imprimir String
 
-void setup() {
-  pinMode(pinLED, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(pinLED, HIGH);
-  delay(1000);
-  digitalWrite(pinLED, LOW);
-  delay(1000);
-}
-```
+código completo en [ej_01_led_imprimir_string](ej_00_led_interno)
 
 ## puerto serial y salida
 
