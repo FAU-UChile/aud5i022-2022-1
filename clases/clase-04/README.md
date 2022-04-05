@@ -18,7 +18,7 @@ hoy aprenderemos:
 * programar semáforo en Arduino
 * construir circuito para semáforo
 
-## fundamentos de programación en Arduino (1 hora)
+## fundamentos de programación en Arduino (90 minutos)
 
 Arduino está basado en Processing, y hereda las 2 funciones principales:
 
@@ -115,9 +115,9 @@ código completo en [ej_05_poema_condicional](ej_05_poema_condicional)
 
 este ejemplo permite escribir un poema interactivo en nuestro microcontrolador, que responde a nuestra entrada por puerto serial.
 
-## programar semáforo con Arduino
+## programar semáforo con Arduino (45 minutos)
 
-
+código completo en [ej_06_semaforo](ej_06_semaforo)
 
 
 ## construir circuito
