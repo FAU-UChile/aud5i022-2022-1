@@ -14,8 +14,9 @@ la clase pasada aprendimos:
 hoy aprenderemos:
 
 * botón pulsador
+* delay() y maneras de evitarlo
 * potenciómetro
-* timing y tap tempo
+* PWM
 
 ## repaso botón pulsador (60 min)
 
@@ -86,7 +87,7 @@ cuando el pulsador NO ESTÁ PRESIONADO, no puede circular corriente (I = 0) a tr
 
 cuando el pulsador SÍ ESTÁ PRESIONADO, se convierte en un cable, que conecta 5V la resistencia y al pin de lectura de Arduino, y ese voltaje cae a GND a través de la resistencia, circulando corriente y disipando energía.
 
-## pulsador y luz (6   0 min)
+## pulsador y luz (60 min)
 
 agregaremos a nuestro circuito un LED que pueda ser encendido o apagado según el pulsador.
 
@@ -116,17 +117,34 @@ así se ve el circuito completo.
 
 para probar este funcionamiento, subimos el código del ejemplo [ej_01_pulsador_luz](./ej_01_pulsador_luz/).
 
-conectar LED y resistencia a salida digital de Arduino para prender y apagar Arduino.
+## ejemplos de luz intermitente (30 min)
 
-explicar diferentes comportamientos: toggle switch, momentary on, 
+usando el mismo circuito veremos 2 aproximaciones distintas a crear una luz intermitente. 
 
-ej_00
+en ambos, cuando el pulsador no está presionado, la luz está apagada, y cuando el pulsador sí está presionado, la luz alterna entre prendida y apagada de forma intermitente.
 
-ej_01_sin_delay
+para la primera usaremos el ejemplo [ej_02_pulsador_luz_intermitente_delay/](./ej_02_pulsador_luz_intermitente_delay/), donde usamos la función delay() de Arduino para lograr la intermitencia.
 
-ej_02_potenciometro
+la función delay() introduce problemas de interacción, ya que mientras está corriendo esta función, Arduino no es capaz de leer ni escribir en sus otros pins. 
 
+por esto creamos el ejemplo [ej_03_pulsador_luz_intermitente/](./ej_03_pulsador_luz_intermitente/), que es más complejo, y usa funciones de contador de milisegundos para detectar tiempo transcurrido, sin pausar el funcionamiento de Arduino al no usar funciones delay().
 
-ejemplo con Line 6 DL4
+## ejemplos de potenciometro (30 min)
 
-aplicar tap tempo a Arduino
+usaremos un potenciómetro de precisión, que posee 3 pines.
+
+los pines de los extremos son conectados a poder (5V y tierra) y el del medio se usa como sensor de la perilla.
+
+![potenciómetro de precisión](./imagenes/15-potenciometro-precision.jpg "potenciómetro de precisión")
+
+se recomienda esta manera de ubicarlo en protoboard para tener más espacio para operar su perilla.
+
+al hacer girar la perilla en el sentido del reloj, el valor disminuye.
+
+![potenciómetro en protoboard](./imagenes/16-potenciometro-protoboard.jpg "potenciómetro en protoboard")
+
+el ejemplo [ej_04_potenciometro/](./ej_04_potenciometro/) que usaremos incluye las instrucciones como comentarios.
+
+los ejemplos [ej_05_perilla_min_max](./ej_05_perilla_min_max/) y [ej_06_perilla_mapeo](./ej_06_perilla_mapeo/) muestran maneras de detectar valores mínimo y máximo de forma automática y mapear a otro rango de operación.
+
+el último ejemplo [ej_07_perilla_brillo_led/](./ej_07_perilla_brillo_led/) permite cambiar brillo del LED con una salida PWM, que será la base de los ejemplos de sonido de la próxima semana.

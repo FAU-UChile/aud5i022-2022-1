@@ -28,7 +28,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [02](clases/clase-02/) | 2022-03-22 | computadores y microcontroladores |
 | [03](clases/clase-03/) | 2022-03-29 | entradas análogas y digitales     |
 | [04](clases/clase-04/) | 2022-04-05 | comunicación serial               |
-| [05](clases/clase-05/) | 2022-04-12 | botones y timing                  |
+| [05](clases/clase-05/) | 2022-04-12 | pulsador, delay(), analogRead()   |
 | [06](clases/clase-06/) | 2022-04-19 | salida de audio                   |
 | [07](clases/clase-07/) | 2022-04-26 | entrada y salida MIDI             |
 | [08](clases/clase-08/) | 2022-05-03 | casos de estudio                  |
@@ -82,3 +82,10 @@ la nota final del curso es el promedio simple de 4 notas:
 * participación: en clase o web vía u-cursos y GitHub
 * tareas: una tarea todas las semanas, las 3 peores no cuentan
 * proyecto final: evaluación incluye código, documentación y presentación
+
+## bibliografía
+
+* [Arduino docs](https://docs.arduino.cc/)
+* [Arduino reference](https://www.arduino.cc/reference/en/)
+* [NYU ITP Physical Computing](https://itp.nyu.edu/physcomp/itp/)
+* [Push Turn Move, Interface Design in Electronic Music, Kim Bjørn](https://bjooks.com/products/push-turn-move-the-book)
