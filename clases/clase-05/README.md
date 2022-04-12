@@ -37,6 +37,8 @@ ej_00
 
 ej_01_sin_delay
 
+ej_02_potenciometro
+
 
 ejemplo con Line 6 DL4
 
