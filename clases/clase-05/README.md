@@ -19,6 +19,8 @@ hoy aprenderemos:
 
 ## repaso botón (60 min)
 
+![imagen de un boton pulsador](./imagenes/00-pulsador.jpg "pulsador")
+
 primero repasamos cómo leer un botón
 
 el botón tiene dos patitas, la de arriba la conectamos a la fuente de poder, la de abajo la conectamos a tierra a través de una resistencia de 10k Ohm.
