@@ -21,13 +21,25 @@ hoy aprenderemos:
 
 primero repasamos cómo leer un botón
 
-![imagen de un boton pulsador](./imagenes/00-pulsador.jpg "pulsador")
+![pulsador](./imagenes/00-pulsador.jpg "pulsador")
 
-![imagen de un boton pulsador en una protoboard por lado izquierdo](./imagenes/01-pulsador-proto-izquierda.jpg "pulsador en protoboard lado izquierdo")
+![pulsador en una protoboard por lado izquierdo](./imagenes/01-pulsador-proto-izquierda.jpg "pulsador en una protoboard por lado izquierdo")
 
-![imagen de un boton pulsador en una protoboard por lado derecho](./imagenes/02-pulsador-proto-derecha.jpg "pulsador en protoboard lado derecho")
+![boton pulsador en una protoboard por lado derecho](./imagenes/02-pulsador-proto-derecha.jpg "boton pulsador en una protoboard por lado derecho")
 
-![imagen de pins de poder de Arduino conectados a protoboard](./imagenes/03-arduino-poder-zoom.jpg "Arduino compartiendo poder con protoboard")
+![pins de poder de Arduino conectados a protoboard](./imagenes/03-arduino-poder-zoom.jpg "pins de poder de Arduino conectados a protoboar")
+
+![Arduino compartiendo poder con protoboard](./imagenes/04-arduino-poder-general.jpg- "Arduino compartiendo poder con protoboard")
+
+![conexión de pin superior de pulsador a 5V](./imagenes/05-pulsador-5v.jpg "conexión de pin superior de pulsador a 5V")
+
+![conexión de pin inferior de pulsador a tierra a través de resistencia](./imagenes/06-pulsador-resistencia-tierra.jpg "conexión de pin inferior de pulsador a tierra a través de resistencia")
+
+![conexión de cable para sensor a pin inferior de pulsador](./imagenes/07-pulsador-cable-sensor.jpg "conexión de cable para sensor a pin inferior de pulsador")
+
+![conexión de cable para sensor a pin 7 digital en Arduino](./imagenes/08-pulsador-entrada-digital.jpg "conexión de cable para sensor a pin 7 digital en Arduino")
+
+![circuito completo de pulsador](./imagenes/09-pulsador-circuito-general.jpg "circuito completo de pulsador")
 
 el botón tiene dos patitas, la de arriba la conectamos a la fuente de poder, la de abajo la conectamos a tierra a través de una resistencia de 10k Ohm.
 
