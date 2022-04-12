@@ -29,7 +29,7 @@ primero repasamos cómo leer un botón
 
 ![pins de poder de Arduino conectados a protoboard](./imagenes/03-arduino-poder-zoom.jpg "pins de poder de Arduino conectados a protoboar")
 
-![Arduino compartiendo poder con protoboard](./imagenes/04-arduino-poder-general.jpg- "Arduino compartiendo poder con protoboard")
+![Arduino compartiendo poder con protoboard](./imagenes/04-arduino-poder-general.jpg "Arduino compartiendo poder con protoboard")
 
 ![conexión de pin superior de pulsador a 5V](./imagenes/05-pulsador-5v.jpg "conexión de pin superior de pulsador a 5V")
 
