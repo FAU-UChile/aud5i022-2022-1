@@ -28,18 +28,18 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [02](clases/clase-02/) | 2022-03-22 | computadores y microcontroladores |
 | [03](clases/clase-03/) | 2022-03-29 | entradas análogas y digitales     |
 | [04](clases/clase-04/) | 2022-04-05 | comunicación serial               |
-| [05](clases/clase-05/) | 2022-04-12 | salida de audio                   |
-| [06](clases/clase-06/) | 2022-04-19 | entrada y salida MIDI             |
-| [07](clases/clase-07/) | 2022-04-26 | casos de estudio                  |
-| [08](clases/clase-08/) | 2022-05-03 | diseño de interacción             |
-| [09](clases/clase-09/) | 2022-05-10 | retroalimentación para usuarios   |
-| [10](clases/clase-10/) | 2022-05-24 | consideraciones éticas            |
+| [05](clases/clase-05/) | 2022-04-12 | botones y timing                  |
+| [06](clases/clase-06/) | 2022-04-19 | salida de audio                   |
+| [07](clases/clase-07/) | 2022-04-26 | entrada y salida MIDI             |
+| [08](clases/clase-08/) | 2022-05-03 | casos de estudio                  |
+| [09](clases/clase-09/) | 2022-05-10 | diseño de interacción             |
+| [10](clases/clase-10/) | 2022-05-24 | retroalimentación para usuarios   |
 | [11](clases/clase-11/) | 2022-05-31 | proyecto medio semestre           |
-| [12](clases/clase-12/) | 2022-06-07 | pantallas                         |
-| [13](clases/clase-13/) | 2022-06-14 | bases de datos                    |
-| [14](clases/clase-14/) | 2022-06-21 | inteligencia artificial           |
-| [15](clases/clase-15/) | 2022-06-28 | publicación de hardware           |
-| [16](clases/clase-16/) | 2022-07-05 | publicación de sofware            |
+| [12](clases/clase-12/) | 2022-06-07 | consideraciones éticas            |
+| [13](clases/clase-13/) | 2022-06-14 | pantallas                         |
+| [14](clases/clase-14/) | 2022-06-21 | bases de datos                    |
+| [15](clases/clase-15/) | 2022-06-28 | inteligencia artificial           |
+| [16](clases/clase-16/) | 2022-07-05 | publicar hardware y sofware       |
 | [17](clases/clase-17/) | 2022-07-12 | proyecto final                    |
 | [18](clases/clase-18/) | 2022-07-19 | conclusiones finales              |
 

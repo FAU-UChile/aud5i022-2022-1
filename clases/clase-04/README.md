@@ -62,7 +62,8 @@ char miInicial = 'a';
 char miInicialDecimal = 141;
 
 // String almacena un arreglo de caracterers, entre comillas dobles ""
-String verso = "habia una vez";
+String verso = "habia una vez";s
+
 ```
 
 ### ejemplo con LED interno
