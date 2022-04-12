@@ -23,9 +23,9 @@ primero repasamos cómo leer un botón
 
 ![imagen de un boton pulsador](./imagenes/00-pulsador.jpg "pulsador")
 
-![imagen de un boton pulsador en una protoboard por lado izquierdo](./imagenes/01-pulsador-proto-izquierda "pulsador en protoboard lado izquierdo")
+![imagen de un boton pulsador en una protoboard por lado izquierdo](./imagenes/01-pulsador-proto-izquierda.jpg "pulsador en protoboard lado izquierdo")
 
-![imagen de un boton pulsador en una protoboard por lado derecho](./imagenes/01-pulsador-proto-derecha "pulsador en protoboard lado derecho")
+![imagen de un boton pulsador en una protoboard por lado derecho](./imagenes/01-pulsador-proto-derecha.jpg "pulsador en protoboard lado derecho")
 
 ![imagen de pins de poder de Arduino conectados a protoboard](./imagenes/03-arduino-poder-zoom.jpg "Arduino compartiendo poder con protoboard")
 
