@@ -1,4 +1,4 @@
-// ej_01_pulsador_luz
+// ej_02_pulsador_luz_intermitente_delay
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -15,6 +15,9 @@ int pinLED = 6;
 // variable para estado LED
 int estadoLED = 0;
 
+// variable para intervalo de intermitencia
+int intervalo = 1000;
+
 void setup() {
 
   // definir pin lectura como entrada digital
@@ -23,9 +26,6 @@ void setup() {
   // definir pin LED como salida digital
   pinMode(pinLED, OUTPUT);
 
-  // abrir comunicacion serial
-  Serial.begin(9600);
-
 }
 
 void loop() {
@@ -33,16 +33,28 @@ void loop() {
   // leer pin y actualizar variable interna
   estadoPulsador = digitalRead(pinLectura);
 
-  // imprimir informacion por puerto serial
-  Serial.println(estadoPulsador);
+  // si pulsador esta presionado
+  if (estadoPulsador == HIGH) {
 
-  // actualizar estado LED
-  estadoLED = estadoPulsador;
+    // prender LED y esperar
+    estadoLED = HIGH;
+    digitalWrite(pinLED, estadoLED);
+    delay(intervalo);
 
-  // usar salida digital para controlar LED
-  digitalWrite(pinLED, estadoLED);
+    // apagar LED y esperar
+    estadoLED = LOW;
+    digitalWrite(pinLED, estadoLED);
+    delay(intervalo);
+  }
 
-  // pausa de 1000 milisegundos
-  delay(1000);
+  // si pulsador no esta presionado
+  else {
+
+    // apagar LED y esperar
+    estadoLED = LOW;
+    digitalWrite(pinLED, estadoLED);
+    delay(intervalo);
+
+  }
 
 }

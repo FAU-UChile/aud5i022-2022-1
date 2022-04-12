@@ -86,7 +86,7 @@ cuando el pulsador NO ESTÁ PRESIONADO, no puede circular corriente (I = 0) a tr
 
 cuando el pulsador SÍ ESTÁ PRESIONADO, se convierte en un cable, que conecta 5V la resistencia y al pin de lectura de Arduino, y ese voltaje cae a GND a través de la resistencia, circulando corriente y disipando energía.
 
-## pulsador y luz (30 min)
+## pulsador y luz (6   0 min)
 
 agregaremos a nuestro circuito un LED que pueda ser encendido o apagado según el pulsador.
 
@@ -96,13 +96,25 @@ nuestro LED estará en la columna c de la protoboard, con el pin positivo en el 
 
 ![LED conectado en la protoboard](./imagenes/10-led.jpg "[LED conectado en la protoboard")
 
+conectamos una resistencia entre tierra y la fila 6 para así conectar el pin negativo del LED a tierra a través de una resistencia, como lo hicimos con el pulsador.
+
 ![terminal negativo de LED conectado a tierra a través de resistor](./imagenes/11-led-resistencia-tierra.jpg "terminal negativo de LED conectado a tierra a través de resistor")
+
+si conectamos el pin positivo del LED a 5V directamente, estará prendido sin interrupciones.
+
+como queremos controlar el encendido y apagado del LED con el pulsador, conectaremos un cable a la fila 5 para conectarlo a un pin digital del microcontrolador Arduino.
 
 ![terminal positivo de LED controlado digitalmente](./imagenes/12-led-control-digital.jpg "terminal positivo de LED controlado digitalmente")
 
+usamos el pin 6 digital que está definido vía software como una salida digital, permitiendo así programar salidas de 5V o tierra para encender o apagar el LED respectivamente.
+
 ![pin 6 de Arduino conectado como salida digital](./imagenes/13-arduino-salida-digital.jpg "pin 6 de Arduino conectado como salida digital")
 
+así se ve el circuito completo.
+
 ![circuito completo pulsador y LED](./imagenes/14-arduino-pulsador-led.jpg "circuito completo pulsador y LED")
+
+para probar este funcionamiento, subimos el código del ejemplo [ej_01_pulsador_luz](./ej_01_pulsador_luz/).
 
 conectar LED y resistencia a salida digital de Arduino para prender y apagar Arduino.
 
