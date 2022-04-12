@@ -19,7 +19,7 @@ hoy aprenderemos:
 
 ## repaso botón (60 min)
 
-![imagen de un boton pulsador](./imagenes/00-pulsador-small-3.jpg "pulsador")
+![imagen de un boton pulsador](./imagenes/00-pulsador-small-2.jpg "pulsador")
 
 primero repasamos cómo leer un botón
 
