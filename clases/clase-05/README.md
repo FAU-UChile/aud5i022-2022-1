@@ -73,6 +73,8 @@ esta es la vista final del circuito.
 
 ![circuito completo de pulsador](./imagenes/09-pulsador-circuito-general.jpg "circuito completo de pulsador")
 
+subamos el código de [ej_00_lectura_pulsador](./ej_00_lectura_pulsador/) de lectura de pulsador a nuestro Arduino.
+
 expliquemos con ley de Ohm la razón por la que el pin inferior alterna entre voltajes.
 
 la ley de Ohm postula que ΔV = I * R, lo que se puede interpretar así:
@@ -84,7 +86,23 @@ cuando el pulsador NO ESTÁ PRESIONADO, no puede circular corriente (I = 0) a tr
 
 cuando el pulsador SÍ ESTÁ PRESIONADO, se convierte en un cable, que conecta 5V la resistencia y al pin de lectura de Arduino, y ese voltaje cae a GND a través de la resistencia, circulando corriente y disipando energía.
 
+## pulsador y luz (30 min)
 
+agregaremos a nuestro circuito un LED que pueda ser encendido o apagado según el pulsador.
+
+seguiremos la convención de orientar terminales positivos arriba y terminales positivos abajo.
+
+nuestro LED estará en la columna c de la protoboard, con el pin positivo en el terminal c5 y el pin positivo en el terminal c6. recordatorio: pin negativo (-) es el que tiene el lado plano.
+
+![LED conectado en la protoboard](./imagenes/10-led.jpg "[LED conectado en la protoboard")
+
+![terminal negativo de LED conectado a tierra a través de resistor](./imagenes/11-led-resistencia-tierra.jpg "terminal negativo de LED conectado a tierra a través de resistor")
+
+![terminal positivo de LED controlado digitalmente](./imagenes/12-led-control-digital.jpg "terminal positivo de LED controlado digitalmente")
+
+![pin 6 de Arduino conectado como salida digital](./imagenes/13-arduino-salida-digital.jpg "pin 6 de Arduino conectado como salida digital")
+
+![circuito completo pulsador y LED](./imagenes/14-arduino-pulsador-led.jpg "circuito completo pulsador y LED")
 
 conectar LED y resistencia a salida digital de Arduino para prender y apagar Arduino.
 
