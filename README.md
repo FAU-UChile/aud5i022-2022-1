@@ -39,7 +39,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [13](clases/clase-13/) | 2022-06-14 | pantallas                         |
 | [14](clases/clase-14/) | 2022-06-21 | bases de datos                    |
 | [15](clases/clase-15/) | 2022-06-28 | inteligencia artificial           |
-| [16](clases/clase-16/) | 2022-07-05 | publicar hardware y sofware       |
+| [16](clases/clase-16/) | 2022-07-05 | publicar hardware y software       |
 | [17](clases/clase-17/) | 2022-07-12 | proyecto final                    |
 | [18](clases/clase-18/) | 2022-07-19 | conclusiones finales              |
 
