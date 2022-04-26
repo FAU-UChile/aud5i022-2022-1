@@ -1,4 +1,4 @@
-// ej_03_sonido_pulsador_aleatorio
+// ej_04_sonido_pulsador_perilla
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -9,9 +9,15 @@ const int pinParlante = 8;
 // pin de conexion del pulsador
 const int pinPulsador = 7;
 
+// pin de conexion de la perilla
+const int pinPerilla = A0;
+
 // variables para almacenar estados del pulsador
 int estadoPulsador = 0;
 int estadoPulsadorAnterior = 0;
+
+// variable para almacenar valor perilla
+int valorPerilla = 0;
 
 // frecuencia del sonido
 int frecuencia = 440;
@@ -25,6 +31,8 @@ const int pausa = 200;
 // setup() ocurre una vez, al principio
 void setup() {
 
+  Serial.begin(9600);
+
   // configurar pin pulsador como entrada digital
   pinMode(pinPulsador, INPUT);
 
@@ -33,21 +41,22 @@ void setup() {
 // loop() ocurre después de setup(), en bucle
 void loop() {
 
-  // almacenar valor actual en valor anterior
+  // actualizar valores de pulsador
   estadoPulsadorAnterior = estadoPulsador;
-
-  // actualizar valor actual
   estadoPulsador = digitalRead(pinPulsador);
+
+  // actualizar valor perilla
+  valorPerilla = analogRead(pinPerilla);
+
+  // imprimir valor perilla
+  Serial.println(valorPerilla);
+
+  // actualizar valor frecuencia
+  // map(valor, actualMin, actualMax, nuevoMin, nuevoMax);
+  frecuencia = map(valorPerilla, 0, 1023, 300, 1300);
 
   // si el pulsador está presionado
   if (estadoPulsador == HIGH) {
-
-    // si el pulsador no estaba presionado antes
-    if (estadoPulsadorAnterior == LOW) {
-      
-      // elegir frecuencia aleatoria
-      frecuencia = random(300, 1300);
-    }
 
     // emitir sonido
     tone(pinParlante, frecuencia);

@@ -128,7 +128,11 @@ en mi protoboard noté que la tierra no se transmite bien a lo largo del riel, l
 
 ![ruido tierra](./imagenes/19-ruido-tierra.jpg "ruido tierra")
 
-el ejemplo [ej_03_sonido_pulsador_aleatorio](./ej_03_sonido_pulsador_aleatorio/) detecta cuando el pulsador es presionado y elige una frecuencia aleatoria cada vez.
+el ejemplo [ej_03_sonido_pulsador_aleatorio](./ej_03_sonido_pulsador_aleatorio/) detecta cuando el pulsador es presionado y elige una frecuencia aleatoria cada vez. este ejemplo también enseña una manera de cómo usar más variables para almacenar la historia de los estados, y así diferenciar entre los actos de presionar el pulsador, y de mantener presionado el pulsador.
+
+ahora usaremos una perilla para manipular la frecuencia.
+
+
 
 ## protocolo MIDI (60 min)
 

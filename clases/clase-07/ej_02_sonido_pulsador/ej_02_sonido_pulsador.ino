@@ -24,7 +24,7 @@ const int pausa = 200;
 // setup() ocurre una vez, al principio
 void setup() {
 
-  // configurar pin boton como entrada digital
+  // configurar pin pulsador como entrada digital
   pinMode(pinPulsador, INPUT);
 
 }
