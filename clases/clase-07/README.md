@@ -177,3 +177,10 @@ para lograr el mismo efecto de una resistencia variable que podamos leer, conect
  el código tiene variables internas de valores mínimo y máximo, lo que permite afinar el circuito a las condiciones actuales de uso, sin tener que preocuparnos de los valores de voltaje que nos brinda el potenciómetro.
 
 ## protocolo MIDI (60 min)
+
+el protocolo MIDI nos permite comunicar información musical entre instrumentos.
+
+hoy usaremos nuestros Arduino para enviar señales a instrumentos MIDI externos.
+
+en particular usaremos el sintetizadores de piano KORG volca keys y el de ritmos KORG volca beats.
+
