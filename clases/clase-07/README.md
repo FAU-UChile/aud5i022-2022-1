@@ -178,17 +178,34 @@ para lograr el mismo efecto de una resistencia variable que podamos leer, conect
 
  el código tiene variables internas de valores mínimo y máximo, lo que permite afinar el circuito a las condiciones actuales de uso, sin tener que preocuparnos de los valores de voltaje que nos brinda el potenciómetro.
 
+con esto tenenos un oscilador controlado por voltaje, uno de los bloques fundamental de un sintetizador, que tiende a ser la base del sonido. además incorporamos elementos para crear envolventes y controles de amplitud, para determinar cuando podemos escuchar el sonido y cuando no.
+
 ## protocolo MIDI (60 min)
 
-el protocolo MIDI nos permite comunicar información musical entre instrumentos.
+hoy aprenderemos a usar el protocolo MIDI para controlar el sintetizador KORG volca keys, creado por [Tatsuya Takahashi](https://www.tatsuyatakahashi.com/) y lanzado en 2013.
 
-hoy usaremos nuestros Arduino para enviar señales a instrumentos MIDI externos.
-
-en particular usaremos el sintetizadores de piano KORG volca keys, creado por [Tatsuya Takahashi](https://www.tatsuyatakahashi.com/) y lanzado en 2013.
+![korg volca keys](./imagenes/30-korg-volca-keys.jpg "korg volca keys")
 
 usamos este sintetizador porque es de relativo bajo costo, y porque presenta una arquitectura clásica de sintetizadores.
 
-con el ejemplo [ej_07_korg_volca_keys_nota/](./ej_07_korg_volca_keys_nota/)
+el protocolo MIDI nos permite comunicar información musical entre instrumentos, a través de un cable con 5 conectores.
 
+![cable MIDI](./imagenes/31-cable-midi.jpg "cable MIDI")
 
-[ej_08_korg_volca_keys_eg_attack/](./ej_08_korg_volca_keys_eg_attack/)
+estos son los conectores que tienen los instrumentos MIDI.
+
+![conector MIDI](./imagenes/32-conector-midi.jpg "conector MIDI")
+
+nuestro Arduino enviará información por su puerto serial, pero en vez de enviarla a través del cable USB hacia nuestro computador, la enviará a través de un conector y un cable MIDI hacia el sintetizador.
+
+![circuito para el conector](./imagenes/33-circuito-conector.jpg "circuito para el conector")
+
+para conectar el Arduino y el sintetizador solamente necesitaremos conectar un cable MIID y listo.
+
+![cable MIDI conectado](./imagenes/34-cable-midi-conectado.jpg "cable MIDI conectado")
+
+con el ejemplo [ej_07_korg_volca_keys_nota/](./ej_07_korg_volca_keys_nota/) podemos usar nuestro Arduino para enviar mensajes MIDI que piden al sintetizador que ciertas notas suenen. además, usamos el potenciómetro para cambiar la duración de las notas.
+
+no solamente podemos controlar la frecuencia y la amplitud del sonido, sino que también podemos controlar otros parámetros del sonido.
+
+en el ejemplo [ej_08_korg_volca_keys_eg_attack/](./ej_08_korg_volca_keys_eg_attack/) mostramos como crear un mensaje de tipo Control Change, que permite hacer que el ataque de la envolvente sea más corto o más rápido, cambiando drásticamente el sonido del sintetizador.
