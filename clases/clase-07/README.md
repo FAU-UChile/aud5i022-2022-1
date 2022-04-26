@@ -48,7 +48,11 @@ para que se vea así.
 
 ![parlante conexión](./imagenes/04-parlante-conexion.jpg "parlante conexión")
 
+subimos el código [ej_00_probar_parlante/](./ej_00_probar_parlante/) para probar el funcionamiento. este código solamente emite sonido durante setup(), no en loop().
 
+para poder volver a escuchar el sonido, conectar y desconectar el cable USB, o presionar el botón rojo para reiniciar.
+
+probemos cambiando la frecuencia, encontrar el menor y mayor número de frecuencia que podemos escuchar.
 
 ## diseño de sintetizadores (60 min)
 
