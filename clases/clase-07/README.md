@@ -2,7 +2,7 @@
 
 martes 26 abril 2022, presencial
 
-## repaso clase anterior y programa hoy (10 min)
+## repaso clase anterior y programa hoy (15 min)
 
 la clase pasada fue cancelada, pero la anterior aprendimos:
 
@@ -128,6 +128,7 @@ en mi protoboard noté que la tierra no se transmite bien a lo largo del riel, l
 
 ![ruido tierra](./imagenes/19-ruido-tierra.jpg "ruido tierra")
 
+el ejemplo [ej_03_sonido_pulsador_aleatorio](./ej_03_sonido_pulsador_aleatorio/) detecta cuando el pulsador es presionado y elige una frecuencia aleatoria cada vez.
 
 ## protocolo MIDI (60 min)
 
@@ -146,7 +147,6 @@ el byte 0 empieza con 1.
 los bytes 1 y 2 empiezan con 0
 
 esto sirve para poder saber dónde empiezan y terminan los mensajes
-
 
 esto hace que a pesar de usar bytes para enviar y recibir mensajes, su resolución es de 7 bits, no 8.
 
