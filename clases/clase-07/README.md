@@ -162,38 +162,18 @@ subimos el ejemplo [ej_04_sonido_pulsador_potenciometro](./ej_04_sonido_pulsador
 
 si hubiéramos invertido los terminales de poder del potenciómetro, hubiéramos invertido la curva de los valores, con el valor más a la izquierda siendo el mayor, y el más a la derecha siendo el menor, lo que puede ser útil en algunos casos, o puede ser también invertido en software si es necesario.
 
+el siguiente ejemplo [ej_05_sonido_pulsador_fotorresistor/](./ej_05_sonido_pulsador_fotorresistor/) reemplaza el potenciómetro por un fotorresistor, que permite aumentar la frecuencia a mayor luz percibida.
+
+![fotorresistor](./imagenes/27-fotorresistor.jpg "fotorresistor")
+
+para lograr el mismo efecto de una resistencia variable que podamos leer, conectamos el terminal de arriba del fotorresistor a 5V, y el de abajo a tierra a través de una resistencia.
+
+![fotorresistor y divisor de voltaje](./imagenes/28-fotorresistor-divisor-voltaje.jpg "fotorresistor y divisor de voltaje")
+
+ con eso, podemos usar un cable para leer el voltaje en el terminal negativo del fotorresistor, que conectamos al pin A1 de entrada análoga del arduino.
+
+![Arduino entrada A1](./imagenes/29-arduino-a1.jpg "Arduino entrada A1")
+
+ el código tiene variables internas de valores mínimo y máximo, lo que permite afinar el circuito a las condiciones actuales de uso, sin tener que preocuparnos de los valores de voltaje que nos brinda el potenciómetro.
+
 ## protocolo MIDI (60 min)
-
-el protocolo MIDI fue creado en los 80.
-
-incluir referencia a libro sobre protocolo MIDI y economía y ciencias sociales.
-
-baud rate 115200
-
-mensaje MIDI típico: 3 bytes.
-
-donde 1xxxxxxx 0xxxxxxx 0xxxxxxx
-
-el byte 0 empieza con 1.
-
-los bytes 1 y 2 empiezan con 0
-
-esto sirve para poder saber dónde empiezan y terminan los mensajes
-
-esto hace que a pesar de usar bytes para enviar y recibir mensajes, su resolución es de 7 bits, no 8.
-
-una resolución de 7 bits permite pow(2,7) = 128 valores distintos, resultando en rangos 0-127.
-
-
-un típico mensaje de nota MIDI está hecho así:
-
-donde 11001cccc 0nnnnnnn 0vvvvvvv
-
-el byte 0 tiene en orden:
-1 - por ser primer byte de mensaje MIDI
-1001 - para indicar note on message
-c = canal (0-15)
-
-los siguientes byte empiezan con 0
-n = número de nota (0-127)
-v = velocidad o volumen(0-127)
