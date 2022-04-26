@@ -28,17 +28,27 @@ en este curso usaremos un parlante pequeño, típico en usos de proyectos de ele
 
 en particular, usamos un parlante de 8 Ohm y de 0.25 W de potencia. les soldé cables cables de distintos colores para señalizar los terminales positivos y negativos.
 
-para probar si el parlante está funcionando, usaremos el código 
+esta es la vista frontal del parlante.
 
 ![parlante frente](./imagenes/00-parlante-frente.jpg "parlante frente")
 
+y esta es la vista trasera donde se ven sus especificaciones eléctricas.
+
 ![parlante atrás](./imagenes/01-parlante-atras.jpg "parlante atrás")
+
+para probar el funcionamiento de nuestro parlante, conectaremos el parlante a nuestro Arduino, primero a tierra. 
 
 ![parlante tierra](./imagenes/02-parlante-tierra.jpg "parlante tierra")
 
+y después al pin 8 digital, en el lado derecho del Arduino.
+
 ![parlante pin](./imagenes/03-parlante-pin.jpg "parlante pin")
 
+para que se vea así.
+
 ![parlante conexión](./imagenes/04-parlante-conexion.jpg "parlante conexión")
+
+
 
 ## diseño de sintetizadores (60 min)
 
