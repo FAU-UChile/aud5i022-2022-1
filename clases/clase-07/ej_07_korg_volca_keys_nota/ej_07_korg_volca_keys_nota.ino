@@ -1,4 +1,4 @@
-// ej_06_korg_volca_keys
+// ej_07_korg_volca_keys_nota
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -30,11 +30,14 @@ int escala[] = {0, 2, 4, 5, 7, 9, 11};
 // escala pentatonica (do re mi sol la)
 //int escala[] = {0, 2, 4, 7, 9};
 
+// largo de la escala
 int escalaLargo = 0;
 
-int notaActual = 0;
-
+// nota base de la escala
 int notaBase = 40;
+
+// nota actual a ser tocada
+int notaActual = 0;
 
 void setup() {
 

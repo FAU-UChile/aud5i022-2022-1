@@ -1,4 +1,4 @@
-// ej_05_sonido_pulsador_fotorresistor
+// ej_06_sonido_pulsador_fotorresistor
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19

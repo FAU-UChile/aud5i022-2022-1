@@ -1,4 +1,4 @@
-// ej_06_korg_volca_keys
+// ej_08_korg_volca_keys_eg_attack
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -21,10 +21,13 @@ const int canalMIDI = 1;
 // porque es 143 + canalMIDI
 const int noteOnMIDI = 143;
 
+// para hacer un mensaje control change en MIDI
+// el primer byte esta en rango [176, 181]
+// porque es 175 + canalMIDI
 const int controlChangeMIDI = 175;
 
-// el numero de MIDI del EG attack es 49
-const int ccEGAttack = 49;
+// el numero de control MIDI del EG attack es 49
+const int controlEGAttack = 49;
 
 int valorEGAttack = 0;
 
@@ -37,11 +40,14 @@ int escala[] = {0, 2, 4, 5, 7, 9, 11};
 // escala pentatonica (do re mi sol la)
 //int escala[] = {0, 2, 4, 7, 9};
 
+// largo de la escala
 int escalaLargo = 0;
 
-int notaActual = 0;
-
+// nota base de la escala
 int notaBase = 40;
+
+// nota actual a ser tocada
+int notaActual = 0;
 
 void setup() {
 
@@ -68,7 +74,7 @@ void loop() {
     valorEGAttack = map(valorPotenciometro, 0, 1023, 0, 127);
 
     // enviar mensaje CC
-    controlChange(ccEGAttack ,valorEGAttack);
+    controlChange(controlEGAttack ,valorEGAttack);
 
     // calcular nota actual
     notaActual = notaBase + escala[i];
