@@ -130,9 +130,37 @@ en mi protoboard noté que la tierra no se transmite bien a lo largo del riel, l
 
 el ejemplo [ej_03_sonido_pulsador_aleatorio](./ej_03_sonido_pulsador_aleatorio/) detecta cuando el pulsador es presionado y elige una frecuencia aleatoria cada vez. este ejemplo también enseña una manera de cómo usar más variables para almacenar la historia de los estados, y así diferenciar entre los actos de presionar el pulsador, y de mantener presionado el pulsador.
 
-ahora usaremos una perilla para manipular la frecuencia.
+ahora usaremos un potenciómetro para manipular la frecuencia. ya habíamos usado un potenciómetro de alta precisión la clase pasada, esta vez usaremos uno más grande y de una sola vuelta.
 
+![potenciometro](./imagenes/20-potenciometro.jpg "potenciometro")
 
+lo conectamos en la columna a de la protoboard, con el terminal izquierdo en la fila 10, el central en la 12, y el derecho en la 14.
+
+![potenciometro en protoboard frente](./imagenes/21-potenciometro-protoboard-frente.jpg "potenciometro en protoboard frente")
+
+así se ve atrás donde realizaremos las conexiones.
+
+![potenciometro en protoboard atrás](./imagenes/22-potenciometro-protoboard-atras.jpg "potenciometro en protoboard atrás")
+
+el terminal derecho en la fila 14 lo conectamos a 5V con un cable.
+
+![potenciómetro conectado a 5V](./imagenes/23-potenciometro-5v.jpg "potenciómetro conectado a 5V")
+
+el terminal izquierdo en la fila 10 lo conectamos a tierra con un cable.
+
+![potenciómetro conectado a tierra](./imagenes/24-potenciometro-tierra.jpg "potenciómetro conectado a tierra")
+
+conectamos un cable al terminal central en la fila 12 para su lectura análoga.
+
+![potenciómetro y cable señal](./imagenes/25-potenciometro-senal.jpg "potenciómetro y cable señal")
+
+el otro extremo del cable de señal lo conectamos al pin A0 de entrada analógica del Arduino.
+
+![Arduino lectura en pin A0](./imagenes/26-potenciometro-a0.jpg "Arduino lectura en pin A0")
+
+subimos el ejemplo [ej_04_sonido_pulsador_potenciometro](./ej_04_sonido_pulsador_potenciometro/) para así tener dos controles, el botón pulsador para controlar inicio y fin del sonido, y el potenciómetro para manipular la frecuencia.
+
+si hubiéramos invertido los terminales de poder del potenciómetro, hubiéramos invertido la curva de los valores, con el valor más a la izquierda siendo el mayor, y el más a la derecha siendo el menor, lo que puede ser útil en algunos casos, o puede ser también invertido en software si es necesario.
 
 ## protocolo MIDI (60 min)
 

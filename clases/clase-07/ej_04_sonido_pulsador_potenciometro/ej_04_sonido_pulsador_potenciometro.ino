@@ -1,4 +1,4 @@
-// ej_04_sonido_pulsador_perilla
+// ej_04_sonido_pulsador_potenciometro
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
@@ -9,15 +9,15 @@ const int pinParlante = 8;
 // pin de conexion del pulsador
 const int pinPulsador = 7;
 
-// pin de conexion de la perilla
-const int pinPerilla = A0;
+// pin de conexion del potenciometro
+const int pinPotenciometro = A0;
 
 // variables para almacenar estados del pulsador
 int estadoPulsador = 0;
 int estadoPulsadorAnterior = 0;
 
-// variable para almacenar valor perilla
-int valorPerilla = 0;
+// variable para almacenar valor potenciometro
+int valorPotenciometro = 0;
 
 // frecuencia del sonido
 int frecuencia = 440;
@@ -45,15 +45,15 @@ void loop() {
   estadoPulsadorAnterior = estadoPulsador;
   estadoPulsador = digitalRead(pinPulsador);
 
-  // actualizar valor perilla
-  valorPerilla = analogRead(pinPerilla);
+  // actualizar valor potenciometro
+  valorPotenciometro = analogRead(pinPotenciometro);
 
-  // imprimir valor perilla
-  Serial.println(valorPerilla);
+  // imprimir valor potenciometro
+  Serial.println(valorPotenciometro);
 
   // actualizar valor frecuencia
   // map(valor, actualMin, actualMax, nuevoMin, nuevoMax);
-  frecuencia = map(valorPerilla, 0, 1023, 300, 1300);
+  frecuencia = map(valorPotenciometro, 0, 1023, 300, 1300);
 
   // si el pulsador está presionado
   if (estadoPulsador == HIGH) {
