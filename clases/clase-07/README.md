@@ -106,8 +106,27 @@ el circuito del parlante se ve así, y si presionamos el botón rojo podemos esc
 
 ![circuito parlante](./imagenes/14-circuito-parlante.jpg "circuito parlante")
 
+usemos ahora el ejemplo [ej_02_sonido_pulsador/](./ej_02_sonido_pulsador/) para lograr que nuestro sonido ocurra solamente mientras tenemos el pulsador presionado, como en un teclado.
 
-en un teclado, las teclas pueden ser pulsadas para indicar cuando un sonido empieza y cuando termina. para implementar esto usaremos nuestro pulsador.
+conectamos un resistor entre tierra y el terminal inferior del pulsador.
+
+![pulsador resistor](./imagenes/15-pulsador-resistor.jpg "pulsador resistor")
+
+el terminal superior del pulsador lo conectamos al riel de alimentación 5V de la protoboard.
+
+![pulsador 5V](./imagenes/16-pulsador-5v.jpg "pulsador 5V")
+
+en el mismo terminal donde está el resistor, conectamos un cable para medir el voltaje.
+
+![pulsador señal](./imagenes/17-pulsador-senal.jpg "pulsador señal")
+
+el otro extremo de ese cable lo conectamos al pin digital 7 de nuestro Arduino.
+
+![Arduino entrada](./imagenes/18-arduino-entrada.jpg "Arduino entrada")
+
+en mi protoboard noté que la tierra no se transmite bien a lo largo del riel, lo que hace que la lectura del pulsador sea ruidosa y no funcione bien, por lo que conecté un cable entre la parte superior del riel y la parte inferior, lo que solucionó el problema.
+
+![ruido tierra](./imagenes/19-ruido-tierra.jpg "ruido tierra")
 
 
 ## protocolo MIDI (60 min)
