@@ -30,6 +30,16 @@ en particular, usamos un parlante de 8 Ohm y de 0.25 W de potencia. les soldé c
 
 para probar si el parlante está funcionando, usaremos el código 
 
+![parlante frente](./imagenes/00-parlante-frente.jpg "parlante frente")
+
+![parlante atrás](./imagenes/01-parlante-atras.jpg "parlante atrás")
+
+![parlante tierra](./imagenes/02-parlante-tierra.jpg "parlante tierra")
+
+![parlante pin](./imagenes/03-parlante-pin.jpg "parlante pin")
+
+![parlante conexión](./imagenes/04-parlante-conexion.jpg "parlante conexión")
+
 ## diseño de sintetizadores (60 min)
 
 
