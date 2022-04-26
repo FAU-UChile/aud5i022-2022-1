@@ -16,10 +16,6 @@ el sonido es una vibración mecánica
 
 
 
-
-
-
-
 hoy aprenderemos:
 
 * conexión de parlante

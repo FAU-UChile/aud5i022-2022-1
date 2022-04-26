@@ -1,33 +1,73 @@
+// ej_03_acorde
+// por montoyamoraga
+// v0.0.1 abril 2022
+// hecho con Arduino Uno y IDE 1.8.19
+// traduccion a español de ejemplo Arduino toneMelody
 
+// incluir archivo en otra pestaña
 # include "notas.h"
 
-// 3 o 4 personas
+// ejemplo para 3 personas
 int personaTotal = 3;
 
-// si son 3 personas: 0, 1, 2
-// si son 4 personas: 0, 1, 2, 3
+// persona es numero entre [0, personaTotal-1]
 int persona = 0;
 
 // elegir una nota del archivo notas.h
-int notaBase = NOTA_SOLS1;
+int notaBase = NOTA_DO4;
 
-// acordes triada para 3 personas
-// 
-int acorde3Mayor[] = {0, 4, 7};
-int acorde3Menor[] = {0, 3, 7};
+// acordes triada
+// mayor      (nota base, 4 semitonos +, 7 semitonos +)
+// menor      (nota base, 3 semitonos +, 7 semitonos +)
+// disminuido (nota base, 3 semitonos +, 6 semitonos +)
+// aumentado  (nota base, 4 semitonos +, 8 semitonos +)
+int acordesTriada[][3] = {
+  {0, 4, 7},
+  {0, 3, 7},
+  {0, 3, 6},
+  {0, 4, 8}
+};
 
-// acordes tetrada para 4 personas
-int acorde4Septima[] = {0, 4, 7, 10};
-int acorde4SeptimaMayor[] = {0, 4, 7, 11};
-int acorde4MenorSeptima[] = {0, 3, 7, 10};
-int acorde4MenorSeptimaMayor[] = {0, 3, 7, 11};
+// raiz doce de 2 o pow(2, 1/12)
+const float subirSemitono = 1.0594631;
+
+// 0 = mayor, 1 = menor, 2 = disminuido = 3 aumentado
+int acordeSeleccion = 0;
+
+int acordeFrecuencias[] = {0, 0, 0};
+
+// pin de conexion del parlante
+int pinParlante = 8;
+
+float multiplicadorPausa = 1.3;
 
 void setup() {
 
-  
+  Serial.begin(9600);
+
+  for (int nota = 0; nota < 3; nota++) {
+    acordeFrecuencias[nota] = notaBase * pow(subirSemitono, acordesTriada[acordeSeleccion][nota]);
+  }
 
 }
 
 void loop() {
+
+  for (int nota = 0 ; nota < 3; nota++) {
+    int duracionNota = 1000 / 8;
+
+    tone(pinParlante, acordeFrecuencias[nota], duracionNota);
+
+    int pausa = duracionNota * multiplicadorPausa;
+
+    // pausar para mantener nota
+    delay(pausa);
+
+    // pausar para mantener nota
+    delay(pausa);
+
+    // silenciar nota
+    noTone(pinParlante);
+  }
 
 }

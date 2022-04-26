@@ -1,5 +1,37 @@
 # clase-07
 
+martes 26 abril 2022, presencial
+
+## repaso clase anterior y programa hoy (10 min)
+
+la clase pasada fue cancelada, pero la anterior aprendimos:
+
+* botón pulsador
+* delay() y maneras de evitarlo
+* potenciómetro
+* PWM
+
+hoy aprenderemos:
+
+* sonido
+* diseño de sintetizadores
+* protocolo MIDI
+
+## sonido (60 min)
+
+el sonido es una perturbación de la presión atmósferica, que nuestros oídos son capaces de escuchar.
+
+usaremos nuestro microcontrolador Arduino para generar voltajes que pueden ser alimentados a un parlante, para así transducir energía eléctrica en mecánica y con esto generar sonido.
+
+en este curso usaremos un parlante pequeño, típico en usos de proyectos de electrónica para principiantes como este [https://www.adafruit.com/product/1891]
+(https://www.adafruit.com/product/1891).
+
+en particular, usamos un parlante de 8 Ohm y de 0.25 W de potencia. les soldé cables cables de distintos colores para señalizar los terminales positivos y negativos.
+
+para probar si el parlante está funcionando, usaremos el código 
+
+## diseño de sintetizadores (60 min)
+
 
 
 ## protocolo MIDI (60 min)
