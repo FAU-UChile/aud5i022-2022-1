@@ -130,6 +130,8 @@ en mi protoboard noté que la tierra no se transmite bien a lo largo del riel, l
 
 el ejemplo [ej_03_sonido_pulsador_aleatorio](./ej_03_sonido_pulsador_aleatorio/) detecta cuando el pulsador es presionado y elige una frecuencia aleatoria cada vez. este ejemplo también enseña una manera de cómo usar más variables para almacenar la historia de los estados, y así diferenciar entre los actos de presionar el pulsador, y de mantener presionado el pulsador.
 
+el ejemplo [ej_04_acorde_pulsador](./ej_04_acorde_pulsador/) nos permite elegir una nota base y un tipo de acorde, y usando distintos Arduinos, poder tocar acordes, lo que significa notas al mismo tiempo.
+
 ahora usaremos un potenciómetro para manipular la frecuencia. ya habíamos usado un potenciómetro de alta precisión la clase pasada, esta vez usaremos uno más grande y de una sola vuelta.
 
 ![potenciometro](./imagenes/20-potenciometro.jpg "potenciometro")
@@ -158,11 +160,11 @@ el otro extremo del cable de señal lo conectamos al pin A0 de entrada analógic
 
 ![Arduino lectura en pin A0](./imagenes/26-potenciometro-a0.jpg "Arduino lectura en pin A0")
 
-subimos el ejemplo [ej_04_sonido_pulsador_potenciometro](./ej_04_sonido_pulsador_potenciometro/) para así tener dos controles, el botón pulsador para controlar inicio y fin del sonido, y el potenciómetro para manipular la frecuencia.
+subimos el ejemplo [ej_05_sonido_pulsador_potenciometro](./ej_05_sonido_pulsador_potenciometro/) para así tener dos controles, el botón pulsador para controlar inicio y fin del sonido, y el potenciómetro para manipular la frecuencia.
 
 si hubiéramos invertido los terminales de poder del potenciómetro, hubiéramos invertido la curva de los valores, con el valor más a la izquierda siendo el mayor, y el más a la derecha siendo el menor, lo que puede ser útil en algunos casos, o puede ser también invertido en software si es necesario.
 
-el siguiente ejemplo [ej_05_sonido_pulsador_fotorresistor/](./ej_05_sonido_pulsador_fotorresistor/) reemplaza el potenciómetro por un fotorresistor, que permite aumentar la frecuencia a mayor luz percibida.
+el siguiente ejemplo [ej_06_sonido_pulsador_fotorresistor/](./ej_06_sonido_pulsador_fotorresistor/) reemplaza el potenciómetro por un fotorresistor, que permite aumentar la frecuencia a mayor luz percibida.
 
 ![fotorresistor](./imagenes/27-fotorresistor.jpg "fotorresistor")
 
@@ -186,4 +188,7 @@ en particular usaremos el sintetizadores de piano KORG volca keys, creado por [T
 
 usamos este sintetizador porque es de relativo bajo costo, y porque presenta una arquitectura clásica de sintetizadores.
 
-con el ejemplo 
+con el ejemplo [ej_07_korg_volca_keys_nota/](./ej_07_korg_volca_keys_nota/)
+
+
+[ej_08_korg_volca_keys_eg_attack/](./ej_08_korg_volca_keys_eg_attack/)
