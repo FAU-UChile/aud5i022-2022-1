@@ -1,12 +1,24 @@
 # clase-06
 
-martes 19 abril 2022, presencial
+martes 19 abril 2022, clase originalmente presencial, pero fue cancelada por enfermedad y reemplazada con contenido teórico asíncrono.
 
-## repaso clase anterior y programa hoy (10 min)
+## conceptos de programación
 
-la clase pasada aprendimos:
+bucle for
 
-* bla
+
+
+## sonido
+
+el sonido es una vibración mecánica
+
+## protocolo MIDI
+
+
+
+
+
+
 
 hoy aprenderemos:
 

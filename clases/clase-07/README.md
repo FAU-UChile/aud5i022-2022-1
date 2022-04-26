@@ -1,5 +1,7 @@
 # clase-07
 
+
+
 ## protocolo MIDI (60 min)
 
 el protocolo MIDI fue creado en los 80.
