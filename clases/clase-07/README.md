@@ -182,5 +182,8 @@ el protocolo MIDI nos permite comunicar información musical entre instrumentos.
 
 hoy usaremos nuestros Arduino para enviar señales a instrumentos MIDI externos.
 
-en particular usaremos el sintetizadores de piano KORG volca keys y el de ritmos KORG volca beats.
+en particular usaremos el sintetizadores de piano KORG volca keys, creado por [Tatsuya Takahashi](https://www.tatsuyatakahashi.com/) y lanzado en 2013.
 
+usamos este sintetizador porque es de relativo bajo costo, y porque presenta una arquitectura clásica de sintetizadores.
+
+con el ejemplo 

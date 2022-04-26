@@ -8,10 +8,17 @@
 # include "notas.h"
 
 // ejemplo para 3 personas
-int personaTotal = 3;
-
 // persona es numero entre [0, personaTotal-1]
-int persona = 0;
+const int persona = 2;
+
+// pin de conexion del parlante
+int pinParlante = 8;
+
+// pin de conexion del pulsador
+const int pinPulsador = 7;
+
+// variable para almacenar estado pulsador
+int estadoPulsador = 0;
 
 // elegir una nota del archivo notas.h
 int notaBase = NOTA_DO4;
@@ -34,17 +41,15 @@ const float subirSemitono = 1.0594631;
 // 0 = mayor, 1 = menor, 2 = disminuido = 3 aumentado
 int acordeSeleccion = 0;
 
+// arreglo de frecuencias para el acorde
 int acordeFrecuencias[] = {0, 0, 0};
-
-// pin de conexion del parlante
-int pinParlante = 8;
-
-float multiplicadorPausa = 1.3;
 
 void setup() {
 
-  Serial.begin(9600);
+  // configurar pin pulsador como entrada digital
+  pinMode(pinPulsador, INPUT);
 
+  // calcular frecuencias del acorde a partir de nota base
   for (int nota = 0; nota < 3; nota++) {
     acordeFrecuencias[nota] = notaBase * pow(subirSemitono, acordesTriada[acordeSeleccion][nota]);
   }
@@ -53,21 +58,23 @@ void setup() {
 
 void loop() {
 
-  for (int nota = 0 ; nota < 3; nota++) {
-    int duracionNota = 1000 / 8;
+  // leer pulsador y actualizar variable
+  estadoPulsador = digitalRead(pinPulsador);
 
-    tone(pinParlante, acordeFrecuencias[nota], duracionNota);
+  // si el pulsador está presionado
+  if (estadoPulsador == HIGH) {
 
-    int pausa = duracionNota * multiplicadorPausa;
+    // emitir sonido
+    tone(pinParlante, acordeFrecuencias[persona]);
 
-    // pausar para mantener nota
-    delay(pausa);
+  }
 
-    // pausar para mantener nota
-    delay(pausa);
+  // si el pulsador no está presionado
+  else {
 
-    // silenciar nota
+    // silenciar sonido
     noTone(pinParlante);
+
   }
 
 }
