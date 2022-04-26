@@ -7,6 +7,10 @@ martes 19 abril 2022, clase originalmente presencial, pero fue cancelada por enf
 bucle for
 
 
+arreglo / array
+
+para programar una melodía podemos programar un arreglo (en inglés array). hasta el momento hemos usado variables, que tienen un tipo de dato (int, float, String) y un nombre, y almacenan un pedazo de información. los arreglos también tienen un nombre y un tipo, pero son capaces de almacenar varios pedazos de información.
+
 
 ## sonido
 

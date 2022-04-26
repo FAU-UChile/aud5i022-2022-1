@@ -17,7 +17,7 @@ hoy aprenderemos:
 * diseño de sintetizadores
 * protocolo MIDI
 
-## sonido (60 min)
+## sonido (45 min)
 
 el sonido es una perturbación de la presión atmósferica, que nuestros oídos son capaces de escuchar.
 
@@ -54,8 +54,60 @@ para poder volver a escuchar el sonido, conectar y desconectar el cable USB, o p
 
 probemos cambiando la frecuencia, encontrar el menor y mayor número de frecuencia que podemos escuchar.
 
-## diseño de sintetizadores (60 min)
+en el ejemplo [ej_01_melodia](./ej_01_melodia/) tenemos una melodía de 8 notas, usaremos 2 arreglos de tipo int y tamaño 8, uno para almacenar las frecuencias y otro para las duraciones.
 
+los arreglos nos permiten almacenar conjuntos de valores relacionados, e iterar a través de ellos fácilmente, usando un bucle for.
+
+## diseño de sintetizadores (45 min)
+
+hasta el momento tenemos un instrumento muy difícil de manejar, que solamente podemos encender y apagar. agreguemos una interfaz electrónica para poder controlar diversos aspectos del sonido.
+
+hoy construiremos nuestro primer sintetizador, que es un instrumento electrónico que permite sintetizar o crear sonidos.
+
+primero traspasemos el circuito con nuestro parlante a nuestra protoboard, para así añadir más componentes.
+
+partamos de nuestra protoboard anterior, con un botón pulsador en el extremo inferior.
+
+![protoboard pulsador](./imagenes/05-protoboard-pulsador.jpg "protoboard pulsador")
+
+conectemos la tierra del parlante a la protoboard.
+
+![parlante tierra](./imagenes/06-protoboard-parlante-tierra.jpg "parlante tierra")
+
+conectemos la señal del parlante a la fila 1 de la protoboard.
+
+![parlante señal](./imagenes/07-protoboard-parlante-senal.jpg "parlante señal")
+
+usemos un cable para acceder a los 5v desde nuestro Arduino.
+
+![Arduino 5V](./imagenes/08-arduino-5v.jpg "Arduino 5V")
+
+el otro extremo del cable se conecta al riel de alimentación de la protoboard.
+
+![protoboard 5V](./imagenes/09-protoboard-5v.jpg "Protoboard 5V")
+
+usamos otro cable para acceder a tierra en Arduino.
+
+![Arduino tierra](./imagenes/10-arduino-tierra.jpg "Arduino tierra")
+
+y el otro extremo lo usamos para conectar al riel de tierra de la protoboard.
+
+![protoboard tierra](./imagenes/11-protoboard-tierra.jpg "protoboard tierra")
+
+conectamos otro cable a la señal de salida de audio del Arduino.
+
+![Arduino señal](./imagenes/12-arduino-senal.jpg "Arduino señal")
+
+conectamos el otro extremo del cable a la fila 1 de la protoboard, para conectar con el parlante.
+
+![protoboard señal](./imagenes/13-protoboard-senal.jpg "protoboard señal")
+
+el circuito del parlante se ve así, y si presionamos el botón rojo podemos escuchar de nuevo la melodía.
+
+![circuito parlante](./imagenes/14-circuito-parlante.jpg "circuito parlante")
+
+
+en un teclado, las teclas pueden ser pulsadas para indicar cuando un sonido empieza y cuando termina. para implementar esto usaremos nuestro pulsador.
 
 
 ## protocolo MIDI (60 min)

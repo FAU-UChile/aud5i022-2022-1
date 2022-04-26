@@ -1,8 +1,9 @@
-// ej_00_melodia
+// ej_01_melodia
 // por montoyamoraga
 // v0.0.1 abril 2022
 // hecho con Arduino Uno y IDE 1.8.19
-// traduccion a español de ejemplo Arduino toneMelody
+// traduccion a español de ejemplo Arduino
+// 02. Digital -  toneMelody
 
 // incluir archivo en otra pestaña
 #include "notas.h"
@@ -26,13 +27,14 @@ int duraciones[] = {
 };
 
 // multiplicador de la duracion
+// a mayor numero, mas rapido
 int multiplicadorDuracion = 4;
-
-// pin de conexion del parlante
-int pinParlante = 8;
 
 // pausa entre notas
 float multiplicadorPausa = 1.3;
+
+// pin de conexion del parlante
+int pinParlante = 8;
 
 // setup() ocurre una vez, al principio
 void setup() {
