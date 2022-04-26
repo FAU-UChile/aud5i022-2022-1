@@ -12,9 +12,17 @@ bucle for
 
 el sonido es una vibración mecánica
 
+## tone()
+
+usamos la función [tone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) de Arduino, que puede tener 2 o 3 argumentos:
+
+
+* tone(pin, frecuencia)
+* tone(pin, frecuencia, duracion)
+
+esta función solamente permite usar un pin a la vez, para cambiar de pin, hay que primero invocar la función noTone() en el pin que queremos dejar de usar.
+
 ## protocolo MIDI
-
-
 
 hoy aprenderemos:
 
