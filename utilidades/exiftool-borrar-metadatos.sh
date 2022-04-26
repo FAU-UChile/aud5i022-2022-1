@@ -2,7 +2,7 @@
 "clear"
 
 # nombre carpeta
-DIR_MEDIA="$PWD/../clases/clase-05/imagenes"
+DIR_MEDIA="$PWD/../clases/clase-07/imagenes"
 
 # extension de archivos
 EXT_ORIGINAL="jpg"
