@@ -120,7 +120,15 @@ enlaces de interés:
 
 ## comunicación serial con navegador web y p5.js (60 mins)
 
-para usar comunicación serial con el navegador, necesitamos usar
+p5.js es una biblioteca de JavaScript y proyecto de la Processing Foundation, que nos permite crear webs interactivas.
+
+p5.js tiene funciones y variables para detectar entrada con teclado y ratón, y hoy usaremos software adicional del proyecto [p5-serial](https://github.com/p5-serial/) creado por [Shawn van Every](https://github.com/vanevery), para añadir soporte para comunicación serial.
+
+primero descargaremos el software [p5.serialcontrol](https://github.com/p5-serial/p5.serialcontrol) en nuestro computador. la versión más nueva en mayo 2022 es la "Beta 1.2" y se puede descargar desde la sección de [releases](https://github.com/p5-serial/p5.serialcontrol/releases), al hacer click en "Assets" y escoger la versión necesaria para nuestro sistema operativo. Como en el laboratorio usamos computadores con Windows, descarguen la versión que dice "p5.serialcontrol-win32-x64.zip" con un tamaño de 67.6 MB.
+
+tras descomprimir el archivo .zip pueden abrir la app p5.serialcontrol. 
+
+![p5-serialcontrol](./imagenes/27-p5-serialcontrol.jpg "p5-serialcontrol")
 
 ## motivación proyecto mitad de semestre próxima semana (45 min)
 
