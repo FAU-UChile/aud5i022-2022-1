@@ -1,3 +1,7 @@
+// ej_01_arduino_envia_boton_potenciometro
+// por montoyamoraga
+// v0.0.1 mayo 2022
+// hecho con Arduino Uno y IDE 1.8.19
 // basado en VirtualColorMixer
 
 const int pinPotenciometro = A0;
