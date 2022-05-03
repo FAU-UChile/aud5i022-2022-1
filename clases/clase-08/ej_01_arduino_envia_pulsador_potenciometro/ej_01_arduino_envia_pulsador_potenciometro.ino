@@ -21,6 +21,9 @@ void setup() {
   // iniciar comunicacion serial
   Serial.begin(9600);
 
+  // definir pin pulsador como entrada digital
+  pinMode(pinPulsador, INPUT);
+
 }
 
 void loop() {
