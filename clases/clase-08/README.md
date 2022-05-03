@@ -12,10 +12,10 @@ la clase pasada aprendimos:
 
 hoy aprenderemos:
 
-* comunicación serial con Processing
-* comunicación serial con p5.js
+* comunicación serial con apps y Processing
+* comunicación serial con navegador web y p5.js
 
-## comunicación serial con Processing (60 mins)
+## comunicación serial con apps y Processing (60 mins)
 
 gracias a la comunicación serial, podemos crear aplicaciones en Processing que son capaces de recibir información desde nuestro Arduino, y al revés también.
 
@@ -118,4 +118,25 @@ enlaces de interés:
 * Xerox Parc
 * Grupo de investigación Tangible Media, liderado por profesor Hiroshi Ishii
 
-## comunicación serial con p5.js (60 mins)
+## comunicación serial con navegador web y p5.js (60 mins)
+
+para usar comunicación serial con el navegador, necesitamos usar
+
+## motivación proyecto mitad de semestre próxima semana (45 min)
+
+la próxima semana haremos nuestro proyecto de mitad de semestre.
+
+trabajen en grupos de 2 o 3 personas.
+
+requisitos:
+
+* deben enviarme un mail con los nombres de su grupo y el link de su repositorio
+* el proyecto debe usar un microcontrolador Arduino
+* deben crear un repositorio de GitHub
+* el código de su Arduino debe estar en el repositorio
+* deben agregar crédito sobre citas y referencias de código
+* el archivo README.md del repositorio debe tener texto con influencias, instrucciones, resultados finales y aprendizajes
+
+inspiración:
+
+* [nicole he - grow slow](https://github.com/nicolehe/grow_slow)
