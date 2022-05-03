@@ -31,7 +31,7 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [05](clases/clase-05/) | 2022-04-12 | pulsador, delay(), analogRead()   |
 | [06](clases/clase-06/) | 2022-04-19 | salida de audio                   |
 | [07](clases/clase-07/) | 2022-04-26 | entrada y salida MIDI             |
-| [08](clases/clase-08/) | 2022-05-03 | casos de estudio                  |
+| [08](clases/clase-08/) | 2022-05-03 | comunicación serial con apps y web|
 | [09](clases/clase-09/) | 2022-05-10 | diseño de interacción             |
 | [10](clases/clase-10/) | 2022-05-24 | retroalimentación para usuarios   |
 | [11](clases/clase-11/) | 2022-05-31 | proyecto medio semestre           |
