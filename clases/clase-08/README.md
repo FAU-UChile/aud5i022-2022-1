@@ -130,6 +130,14 @@ tras descomprimir el archivo .zip pueden abrir la app p5.serialcontrol.
 
 ![p5-serialcontrol](./imagenes/27-p5-serialcontrol.jpg "p5-serialcontrol")
 
+en la sección "Connect", elegir el puerto correspondiente a nuestro microcontrolador Arduino.
+
+![p5-serialcontrol connect](./imagenes/28-p5-serialcontrol-connect.jpg "p5-serialcontrol connect")
+
+en la consola, abrir la consola con el botón "Open" y luego habilitar las dos cajitas que dicen "console enabled" y "read in ASCII", para poder leer los mensajes seriales desde Arduino, con las lecturas de estado de nuestro pulsador y potenciómetro.
+
+![p5-serialcontrol console](./imagenes/29-p5-serialcontrol-console.jpg "p5-serialcontrol console")
+
 ## motivación proyecto mitad de semestre próxima semana (45 min)
 
 la próxima semana haremos nuestro proyecto de mitad de semestre.
