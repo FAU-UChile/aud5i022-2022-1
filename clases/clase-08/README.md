@@ -14,6 +14,7 @@ hoy aprenderemos:
 
 * comunicación serial con apps y Processing
 * comunicación serial con navegador web y p5.js
+* instrucciones proyecto mitad de semestre próxima semana
 
 ## comunicación serial con apps y Processing (60 mins)
 
@@ -31,7 +32,7 @@ el ejemplo en Processing dibuja una elipse usando los valores recibidos desde Ar
 
 notar que esta configuración puede ser un problema, porque esto hace que nuestro software en Processing no sea "plug and play" o "conectar y listo", debemos configurar esto en cada computador o Arduino que usamos, para asegurar que la conexión serial funcione.
 
-en el siguiente ejemplo, usaremos el mismo circuito con pulsador y potenciómetro de la clase anterior, acá está copiado a continuación.
+en el siguiente par de ejemplos [ej_01_arduino_envia_pulsador_potenciometro](./ej_01_arduino_envia_pulsador_potenciometro/) y [ej_01_processing_recibe_pulsador_potenciometro](./ej_01_processing_recibe_pulsador_potenciometro/), usaremos el mismo circuito con pulsador y potenciómetro de la clase anterior, acá está copiado a continuación.
 
 partamos de nuestra protoboard anterior, con un botón pulsador en el extremo inferior.
 
@@ -101,7 +102,7 @@ el otro extremo del cable de señal lo conectamos al pin A0 de entrada analógic
 
 ![Arduino lectura en pin A0](./imagenes/26-potenciometro-a0.jpg "Arduino lectura en pin A0")
 
-## motivación de comunicación serial con Processing (30 min)
+## motivación de comunicación serial con Processing (15 min)
 
 nuestro computador tiene distintas maneras de ingresar información, como ratón, teclado y cámara.
 
@@ -113,10 +114,12 @@ el ratón o trackpad permite mover el cursor en la pantalla en coordenadas X e Y
 
 estos avances permitieron que los computadores pasaran de ser dispositivos controlados exclusivamente por comandos textuales, a lo que conocemos como [GUI](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) (graphical user interface, interfaz gráfica de usuario).
 
+con nuestro microcontrolador Arduino, y el uso de puerto serial, podemos pensar en distintas interfaces humano - computador, que expanden o reemplazan los clásicos controladores ratón y teclado.
+
 enlaces de interés:
 
-* Xerox Parc
-* Grupo de investigación Tangible Media, liderado por profesor Hiroshi Ishii
+* [Palo Alto Reserach Center (PARC)](https://es.wikipedia.org/wiki/PARC)
+* Grupo de investigación[Tangible Media](https://www.media.mit.edu/groups/tangible-media/overview/), liderado por profesor [Hiroshi Ishii](https://tangible.media.mit.edu/person/hiroshi-ishii/) en MIT.
 
 ## comunicación serial con navegador web y p5.js (60 mins)
 
@@ -138,7 +141,44 @@ en la consola, abrir la consola con el botón "Open" y luego habilitar las dos c
 
 ![p5-serialcontrol console](./imagenes/29-p5-serialcontrol-console.jpg "p5-serialcontrol console")
 
-## motivación proyecto mitad de semestre próxima semana (45 min)
+si esto funciona, probaremos usando los ejemplos en los repositorios:
+
+* [https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto)
+* [https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse)
+* [https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-camara](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-camara)
+
+estos ejemplos tienen en el archivo sketch.js, en su línea 13 el siguiente código
+
+```
+let nombrePuerto = "/dev/tty.usbmodem143301";
+```
+
+esta línea de código es la que me permitió que las páginas web reconocieran mi microcontrolador Arduino en el computador de mi casa, pero en en el computador que están usando deberán reemplazar esta línea.
+
+para esto, les pido que inicien sesión en su cuenta de GitHub, y hagan un "fork" del primer repositorio [https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto), con el botón Fork" en GitHub.
+
+esto copiará los contenidos del repositorio original y lo agregará a su cuenta personal.
+
+después de hacer eso, tenemos que pedirle a GitHub que publique nuestros archivos como una página web, eso se hace haciendo click en "Settings", luego en "Pages", y luego en el menú de  "Source", eligiendo "main" y presionando el botón "Save".
+
+si ahora entran a su web, que será del estilo https://nombreUsuario.github.io/clase-08-ejemplo-p5js-texto/, podrán ver el estado de su web.
+
+abriendo la consola del navegador web podemos ver los nombres de los puertos de Arduino, y con eso actualizar el nombre del puerto de la línea 13 de sketch.js
+
+tras grabar y esperar un poco, nuestra página funcionará y logrará leer datos desde nuestro microcontrolador Arduino!
+
+## motivación de comunicación serial con p5.js (15 min)
+
+los navegadores web y las páginas web nos brindan acceso a otras latitudes geográficas, archivos y bases de datos, y todo tipo de información de una manera inédita en la historia de la humanidad.
+
+con nuestro microcontrolador Arduino podemos crear interfaces electrónicas y físicas de entrada y salida a la web.
+
+enlaces de interés:
+
+* [Sam Lavigne](https://lav.io/)
+* [Stupid Hackathon](https://stupidhackathon.com/)
+
+## instrucciones proyecto mitad de semestre próxima semana (30 min)
 
 la próxima semana haremos nuestro proyecto de mitad de semestre.
 
