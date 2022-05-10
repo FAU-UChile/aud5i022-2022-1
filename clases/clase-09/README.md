@@ -17,18 +17,11 @@ hoy aprenderemos:
 
 ## instrucciones proyecto mitad de semestre (15 min)
 
-la próxima semana haremos nuestro proyecto de mitad de semestre.
+hoy haremos nuestro proyecto de mitad de semestre.
 
 trabajen en grupos de 2 o 3 personas.
 
-requisitos:
-
-* deben enviarme un mail con los nombres de su grupo y el link de su repositorio
-* el proyecto debe usar un microcontrolador Arduino
-* deben crear un repositorio de GitHub
-* el código de su Arduino debe estar en el repositorio
-* deben agregar crédito sobre citas y referencias de código
-* el archivo README.md del repositorio debe tener texto con influencias, instrucciones, resultados finales y aprendizajes
+instrucciones en repositorio [https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre](https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre).
 
 pauta:
 
@@ -36,10 +29,9 @@ pauta:
 * 1 punto por venir
 * 1 punto por lista de materiales
 * 1 punto por instrucciones de armado de circuito
-* 1 punto por subir código
+* 1 punto por código microcontrolador Arduino
 * 1 punto por subir imágenes
 * 1 punto por escribir conclusiones (aprendizajes, dificultades, etc)
-
 
 inspiración:
 
@@ -50,4 +42,3 @@ inspiración:
 * [http://xxx.tiri.xxx/work/deeptalking/](http://xxx.tiri.xxx/work/deeptalking/)
 * [https://nicole.pizza/true-love-tinder-robot](https://nicole.pizza/true-love-tinder-robot)
 * [https://mayaontheinter.net/index/projects/posenet-sketchbook](https://mayaontheinter.net/index/projects/posenet-sketchbook)
-
