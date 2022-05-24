@@ -34,8 +34,8 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [08](clases/clase-08/) | 2022-05-03 | comunicación serial con apps y web|
 | [09](clases/clase-09/) | 2022-05-10 | proyecto grupal mitad de semestre |
 | semana receso          | 2022-05-17 | no clases no trabajos             |
-| [10](clases/clase-10/) | 2022-05-24 | sensores de entrada               |
-| [11](clases/clase-11/) | 2022-05-31 | retroalimentación para usuarios   |
+| [10](clases/clase-10/) | 2022-05-24 | retroalimentación para usuarios   |
+| [11](clases/clase-11/) | 2022-05-31 | sensores de entrada               |
 | [12](clases/clase-12/) | 2022-06-07 | inteligencia artificial           |
 | [13](clases/clase-13/) | 2022-06-14 | consideraciones éticas            |
 | [14](clases/clase-14/) | 2022-06-21 | semana trabajo autónomo 4.5 horas |
@@ -75,12 +75,11 @@ durante este curso usaremos los siguientes software:
 
 las notas van entre 1.0 y 7.0, con resolución de un decimal.
 
-la nota final del curso es el promedio simple de 4 notas:
+la nota final del curso es el promedio simple de las notas:
 
-* asistencia: inasistencias justificadas valen media asistencia, pueden faltar 3 veces
-* participación: en clase o web vía u-cursos y GitHub
-* tareas: una tarea todas las semanas, las 3 peores no cuentan
-* proyecto final: evaluación incluye código, documentación y presentación
+* asistencia: inasistencias justificadas valen media asistencia
+* tareas: tareas son de trabajo individual en horario fuera de clase
+* proyecto: evaluación incluye código, documentación y presentación
 
 ## bibliografía
 
