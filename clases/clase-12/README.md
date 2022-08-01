@@ -1,7 +1,3 @@
 # clase-12
 
-documental coded bias
-
-libro Design Justice
-
-libro Twitter and Tear Gas
+esta clase y las siguientes del curso fueron canceladas por paro
