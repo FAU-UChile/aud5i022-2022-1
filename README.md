@@ -34,16 +34,15 @@ Universidad de Chile, Facultad de Arquitectura y Urbanismo
 | [08](clases/clase-08/) | 2022-05-03 | comunicación serial con apps y web |
 | [09](clases/clase-09/) | 2022-05-10 | proyecto grupal mitad de semestre  |
 | semana receso          | 2022-05-17 | no clases no trabajos              |
+| [10](clases/clase-10/) | 2022-05-24 | retroalimentación para usuarios    |
+| [11](clases/clase-11/) | 2022-05-31 | sensores de entrada                |
+| [12](clases/clase-12/) | 2022-06-07 | inteligencia artificial            |
+| [13](clases/clase-13/) | 2022-06-14 | consideraciones éticas             |
+| [14](clases/clase-14/) | 2022-06-21 | semana trabajo autónomo 4.5 horas  |
+| [15](clases/clase-15/) | 2022-06-28 | publicar hardware y software       |
+| cierre acta            | 2022-07-15 | envío actas                        |
 
-las siguientes clases fueron canceladas por paro:
-
-| [10](clases/clase-10/) | 2022-05-24 | retroalimentación para usuarios |
-| [11](clases/clase-11/) | 2022-05-31 | sensores de entrada |
-| [12](clases/clase-12/) | 2022-06-07 | inteligencia artificial |
-| [13](clases/clase-13/) | 2022-06-14 | consideraciones éticas |
-| [14](clases/clase-14/) | 2022-06-21 | semana trabajo autónomo 4.5 horas |
-| [15](clases/clase-15/) | 2022-06-28 | publicar hardware y software |
-| cierre acta | 2022-07-15 | envío actas |
+las clases 10-15 fueron canceladas este semestre por paro.
 
 ## herramientas
 
